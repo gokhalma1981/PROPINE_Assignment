@@ -1,0 +1,1807 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 20 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-PROPINE_Sample_Automation_Test_Suite">
+              <span class="suite-name border-failed">PROPINE Sample Automation Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-PROPINE_Sample_Automation_Test_Suite">
+                    <span>C:\Users\User\workspace\PROPINESampleTest\src\main\resources\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-PROPINE_Sample_Automation_Test_Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-PROPINE_Sample_Automation_Test_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-PROPINE_Sample_Automation_Test_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-PROPINE_Sample_Automation_Test_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-PROPINE_Sample_Automation_Test_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-PROPINE_Sample_Automation_Test_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">36 methods, 20 failed,   16 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-PROPINE_Sample_Automation_Test_Suite" class="hide-methods failed suite-PROPINE_Sample_Automation_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-PROPINE_Sample_Automation_Test_Suite -->
+                      <a href="#" panel-name="suite-PROPINE_Sample_Automation_Test_Suite" class="show-methods failed suite-PROPINE_Sample_Automation_Test_Suite"> (show)</a> <!-- show-methods failed suite-PROPINE_Sample_Automation_Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-PROPINE_Sample_Automation_Test_Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PROPINE_Sample_Automation_Test_Suite" title="com.propine.qa.testcases.TC_FIELD_0003_VerifyFirstNumberForNonNumericValuesTest" hash-for-method="TC_FIELD_0003_verifyFirstNumberForNonNumericValuesTest(ab$&amp;)">TC_FIELD_0003_verifyFirstNumberForNonNumericValuesTest(ab$&)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PROPINE_Sample_Automation_Test_Suite" title="com.propine.qa.testcases.TC_FIELD_0004_VerifySecondNumberForNonNumericValuesTest" hash-for-method="TC_FIELD_0004_verifySecondNumberForNonNumericValuesTest(ab$&amp;)">TC_FIELD_0004_verifySecondNumberForNonNumericValuesTest(ab$&)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PROPINE_Sample_Automation_Test_Suite" title="com.propine.qa.testcases.TC_FUNC_0011_VerifyAdditionOfPositiveAndNegativeFloatNumbersTest" hash-for-method="TC_FUNC_0011_verifyAdditionOfPositiveAndNegativeFloatNumbersTest(10.04, -10.02, 0.02)">TC_FUNC_0011_verifyAdditionOfPositiveAndNegativeFloatNumbersTest(10.04, -10.02, 0.02)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PROPINE_Sample_Automation_Test_Suite" title="com.propine.qa.testcases.TC_FUNC_0012_VerifyAdditionOfNegativeAndPositiveFloatNumbersTest" hash-for-method="TC_FUNC_0012_verifyAdditionOfNegativeAndPositiveFloatNumbersTest(-10.04, 10.02, -0.02)">TC_FUNC_0012_verifyAdditionOfNegativeAndPositiveFloatNumbersTest(-10.04, 10.02, -0.02)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PROPINE_Sample_Automation_Test_Suite" title="com.propine.qa.testcases.TC_FUNC_0015_VerifyAdditionOfNegativeIntAndPositiveFloatNumbersTest" hash-for-method="TC_FUNC_0015_verifyAdditionOfNegativeIntAndPositiveFloatNumbersTest(-10, 10.02, 0.02)">TC_FUNC_0015_verifyAdditionOfNegativeIntAndPositiveFloatNumbersTest(-10, 10.02, 0.02)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PROPINE_Sample_Automation_Test_Suite" title="com.propine.qa.testcases.TC_FUNC_0016_VerifyAdditionOfNegativeFloatAndPositiveIntNumbersTest" hash-for-method="TC_FUNC_0016_verifyAdditionOfNegativeFloatAndPositiveIntNumbersTest(-10.015, 10, -0.015)">TC_FUNC_0016_verifyAdditionOfNegativeFloatAndPositiveIntNumbersTest(-10.015, 10, -0.015)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PROPINE_Sample_Automation_Test_Suite" title="com.propine.qa.testcases.TC_FUNC_0019_VerifyAdditionOfTwoPositiveFloatNumbersWithDiffDecimalsTest" hash-for-method="TC_FUNC_0019_verifyAdditionOfTwoPositiveFloatNumbersWithDiffDecimalsTest(2.001, 4.0001, 6.0011)">TC_FUNC_0019_verifyAdditionOfTwoPositiveFloatNumbersWithDiffDecimalsTest(2.001, 4.0001, 6.0011)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PROPINE_Sample_Automation_Test_Suite" title="com.propine.qa.testcases.TC_FUNC_0020_VerifyAdditionOfTwoNegativeFloatNumbersWithDiffDecimalsTest" hash-for-method="TC_FUNC_0020_verifyAdditionOfTwoNegativeFloatNumbersWithDiffDecimalsTest(-12.008, -2.0002, -14.0082)">TC_FUNC_0020_verifyAdditionOfTwoNegativeFloatNumbersWithDiffDecimalsTest(-12.008, -2.0002, -14.0082)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PROPINE_Sample_Automation_Test_Suite" title="com.propine.qa.testcases.TC_FUNC_0021_VerifyErrorMessageForNullValueForFirstNumberTest" hash-for-method="TC_FUNC_0021_verifyErrorMessageForNullValueForFirstNumberTest(10, Enter valid numeric or float value for First Number)">TC_FUNC_0021_verifyErrorMessageForNullValueForFirstNumberTest(10, Enter valid numeric or float value for First Number)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PROPINE_Sample_Automation_Test_Suite" title="com.propine.qa.testcases.TC_FUNC_0022_VerifyErrorMessageForNullValueForSecondNumberTest" hash-for-method="TC_FUNC_0022_verifyErrorMessageForNullValueForSecondNumberTest(10, Enter valid numeric or float value for Second Number)">TC_FUNC_0022_verifyErrorMessageForNullValueForSecondNumberTest(10, Enter valid numeric or float value for Second Number)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PROPINE_Sample_Automation_Test_Suite" title="com.propine.qa.testcases.TC_FUNC_0023_VerifyErrorMessageForNullValuesForFirstNumberAndSecondNumberTest" hash-for-method="TC_FUNC_0023_verifyErrorMessageForNullValueForSecondNumberTest(Enter valid numeric or float value for First Number, Enter valid numeric or float value for Second N...)">TC_FUNC_0023_verifyErrorMessageForNullValueForSecondNumberTest(Enter valid numeric or float value for First Number, Enter valid numeric or float value for Second N...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PROPINE_Sample_Automation_Test_Suite" title="com.propine.qa.testcases.TC_FUNC_0024_VerifyErrorMessageForNonNumericValueForFirstNumberTest" hash-for-method="TC_FUNC_0024_verifyErrorMessageForNonNumericValueForFirstNumberTest(ab#, 10, Enter valid numeric or float value for First Number)">TC_FUNC_0024_verifyErrorMessageForNonNumericValueForFirstNumberTest(ab#, 10, Enter valid numeric or float value for First Number)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PROPINE_Sample_Automation_Test_Suite" title="com.propine.qa.testcases.TC_FUNC_0025_VerifyErrorMessageForNonNumericValueForSecondNumberTest" hash-for-method="TC_FUNC_0025_verifyErrorMessageForNonNumericValueForSecondNumberTest(10, ab#, Enter valid numeric or float value for Second Number)">TC_FUNC_0025_verifyErrorMessageForNonNumericValueForSecondNumberTest(10, ab#, Enter valid numeric or float value for Second Number)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PROPINE_Sample_Automation_Test_Suite" title="com.propine.qa.testcases.TC_FUNC_0026_VerifyErrorMessageForNonNumericValueForFirstNumberAndSecondNumberTest" hash-for-method="TC_FUNC_0026_verifyErrorMessageForNonNumericValueForFirstNumberAndSecondNumberTest(ab#, ab#, Enter valid numeric or float value for First Number, Enter valid numeric or float value fo...)">TC_FUNC_0026_verifyErrorMessageForNonNumericValueForFirstNumberAndSecondNumberTest(ab#, ab#, Enter valid numeric or float value for First Number, Enter valid numeric or float value fo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PROPINE_Sample_Automation_Test_Suite" title="com.propine.qa.testcases.TC_FUNC_0027_VerifyErrorMessageForAlphaNumericValueForFirstNumberTest" hash-for-method="TC_FUNC_0027_verifyErrorMessageForAlphaNumericValueForFirstNumberTest(1a, 10, Enter valid numeric or float value for First Number)">TC_FUNC_0027_verifyErrorMessageForAlphaNumericValueForFirstNumberTest(1a, 10, Enter valid numeric or float value for First Number)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PROPINE_Sample_Automation_Test_Suite" title="com.propine.qa.testcases.TC_FUNC_0028_VerifyErrorMessageForAlphaNumericValueForSecondNumberTest" hash-for-method="TC_FUNC_0028_verifyErrorMessageForAlphaNumericValueForSecondNumberTest(10, b2, Enter valid numeric or float value for Second Number)">TC_FUNC_0028_verifyErrorMessageForAlphaNumericValueForSecondNumberTest(10, b2, Enter valid numeric or float value for Second Number)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PROPINE_Sample_Automation_Test_Suite" title="com.propine.qa.testcases.TC_FUNC_0029_VerifyErrorMessageForAlphaNumericValueForFirstNumberAndSecondNumberTest" hash-for-method="TC_FUNC_0029_verifyErrorMessageForAlphaNumericValueForFirstNumberAndSecondNumberTest(2a, 3b, Enter valid numeric or float value for First Number, Enter valid numeric or float value for ...)">TC_FUNC_0029_verifyErrorMessageForAlphaNumericValueForFirstNumberAndSecondNumberTest(2a, 3b, Enter valid numeric or float value for First Number, Enter valid numeric or float value for ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PROPINE_Sample_Automation_Test_Suite" title="com.propine.qa.testcases.TC_FUNC_0030_VerifyErrorMessageForNumericValueWithSpaceForFirstNumberTest" hash-for-method="TC_FUNC_0030_verifyErrorMessageForNumericValueWithSpaceForFirstNumberTest(   5  , 10, Enter valid numeric or float value for First Number)">TC_FUNC_0030_verifyErrorMessageForNumericValueWithSpaceForFirstNumberTest(   5  , 10, Enter valid numeric or float value for First Number)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PROPINE_Sample_Automation_Test_Suite" title="com.propine.qa.testcases.TC_FUNC_0031_VerifyErrorMessageForNumericValueWithSpaceForSecondNumberTest" hash-for-method="TC_FUNC_0031_verifyErrorMessageForNumericValueWithSpaceForSecondNumberTest(10,     2  , Enter valid numeric or float value for Second Number)">TC_FUNC_0031_verifyErrorMessageForNumericValueWithSpaceForSecondNumberTest(10,     2  , Enter valid numeric or float value for Second Number)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PROPINE_Sample_Automation_Test_Suite" title="com.propine.qa.testcases.TC_FUNC_0032_VerifyErrorMessageForNumericValueWithSpaceForFirstNumberAndSecondNumberTest" hash-for-method="TC_FUNC_0032_verifyErrorMessageForNumericValueWithSpaceForFirstNumberAndSecondNumberTest(     5     ,      2   , Enter valid numeric or float value for First Number, Enter valid numeric or ...)">TC_FUNC_0032_verifyErrorMessageForNumericValueWithSpaceForFirstNumberAndSecondNumberTest(     5     ,      2   , Enter valid numeric or float value for First Number, Enter valid numeric or ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-PROPINE_Sample_Automation_Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-PROPINE_Sample_Automation_Test_Suite" class="hide-methods passed suite-PROPINE_Sample_Automation_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-PROPINE_Sample_Automation_Test_Suite -->
+                      <a href="#" panel-name="suite-PROPINE_Sample_Automation_Test_Suite" class="show-methods passed suite-PROPINE_Sample_Automation_Test_Suite"> (show)</a> <!-- show-methods passed suite-PROPINE_Sample_Automation_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-PROPINE_Sample_Automation_Test_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PROPINE_Sample_Automation_Test_Suite" title="com.propine.qa.testcases.TC_FIELD_0001_VerifyFirstNumberForNumericValuesTest" hash-for-method="TC_FIELD_0001_verifyFirstNumberForNumericValuesTest(10.0)">TC_FIELD_0001_verifyFirstNumberForNumericValuesTest(10.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PROPINE_Sample_Automation_Test_Suite" title="com.propine.qa.testcases.TC_FIELD_0002_VerifySecondNumberForNumericValuesTest" hash-for-method="TC_FIELD_0002_verifySecondNumberForNumericValuesTest(20.0)">TC_FIELD_0002_verifySecondNumberForNumericValuesTest(20.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PROPINE_Sample_Automation_Test_Suite" title="com.propine.qa.testcases.TC_FUNC_0001_VerifyAdditionOfTwoPositiveIntegerNumbersTest" hash-for-method="TC_FUNC_0001_verifyAdditionOfTwoPositiveIntegerNumbersTest(10.0, 20.0, 30.0)">TC_FUNC_0001_verifyAdditionOfTwoPositiveIntegerNumbersTest(10.0, 20.0, 30.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PROPINE_Sample_Automation_Test_Suite" title="com.propine.qa.testcases.TC_FUNC_0002_VerifyAdditionOfTwoNegativeIntegerNumbersTest" hash-for-method="TC_FUNC_0002_verifyAdditionOfTwoNegativeIntegerNumbersTest(-10.0, -20.0, -30.0)">TC_FUNC_0002_verifyAdditionOfTwoNegativeIntegerNumbersTest(-10.0, -20.0, -30.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PROPINE_Sample_Automation_Test_Suite" title="com.propine.qa.testcases.TC_FUNC_0003_VerifyAdditionOfTwoZeroNumbersTest" hash-for-method="TC_FUNC_0003_verifyAdditionOfTwoZeroNumbersTest(0, 0, 0)">TC_FUNC_0003_verifyAdditionOfTwoZeroNumbersTest(0, 0, 0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PROPINE_Sample_Automation_Test_Suite" title="com.propine.qa.testcases.TC_FUNC_0004_VerifyAdditionOfPositiveAndNegativeIntegerNumbersTest" hash-for-method="TC_FUNC_0004_verifyAdditionOfPositiveAndNegativeIntegerNumbersTest(10.0, -20, -10)">TC_FUNC_0004_verifyAdditionOfPositiveAndNegativeIntegerNumbersTest(10.0, -20, -10)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PROPINE_Sample_Automation_Test_Suite" title="com.propine.qa.testcases.TC_FUNC_0005_VerifyAdditionOfNegativeAndPositiveIntegerNumbersTest" hash-for-method="TC_FUNC_0005_verifyAdditionOfNegativeAndPositiveIntegerNumbersTest(-20, 10, -10)">TC_FUNC_0005_verifyAdditionOfNegativeAndPositiveIntegerNumbersTest(-20, 10, -10)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PROPINE_Sample_Automation_Test_Suite" title="com.propine.qa.testcases.TC_FUNC_0006_VerifyAdditionOfPositiveAndZeroIntegerNumbersTest" hash-for-method="TC_FUNC_0006_verifyAdditionOfPositiveAndZeroIntegerNumbersTest(10.0, 0, 10)">TC_FUNC_0006_verifyAdditionOfPositiveAndZeroIntegerNumbersTest(10.0, 0, 10)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PROPINE_Sample_Automation_Test_Suite" title="com.propine.qa.testcases.TC_FUNC_0007_VerifyAdditionOfNegativeAndZeroIntegerNumbersTest" hash-for-method="TC_FUNC_0007_verifyAdditionOfNegativeAndZeroIntegerNumbersTest(-20, 0, -20)">TC_FUNC_0007_verifyAdditionOfNegativeAndZeroIntegerNumbersTest(-20, 0, -20)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PROPINE_Sample_Automation_Test_Suite" title="com.propine.qa.testcases.TC_FUNC_0008_VerifyAdditionOfTwoZeroIntegerNumbersTest" hash-for-method="TC_FUNC_0008_verifyAdditionOfTwoZeroIntegerNumbersTest(0, 0, 0)">TC_FUNC_0008_verifyAdditionOfTwoZeroIntegerNumbersTest(0, 0, 0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PROPINE_Sample_Automation_Test_Suite" title="com.propine.qa.testcases.TC_FUNC_0009_VerifyAdditionOfTwoPositiveFloatNumbersTest" hash-for-method="TC_FUNC_0009_verifyAdditionOfTwoPositiveFloatNumbersTest(10.04, 10.02, 20.06)">TC_FUNC_0009_verifyAdditionOfTwoPositiveFloatNumbersTest(10.04, 10.02, 20.06)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PROPINE_Sample_Automation_Test_Suite" title="com.propine.qa.testcases.TC_FUNC_0010_VerifyAdditionOfTwoNegativeFloatNumbersTest" hash-for-method="TC_FUNC_0010_verifyAdditionOfTwoNegativeFloatNumbersTest(-10.04, -10.02, -20.06)">TC_FUNC_0010_verifyAdditionOfTwoNegativeFloatNumbersTest(-10.04, -10.02, -20.06)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PROPINE_Sample_Automation_Test_Suite" title="com.propine.qa.testcases.TC_FUNC_0013_VerifyAdditionOfPositiveIntAndPositiveFloatNumbersTest" hash-for-method="TC_FUNC_0013_verifyAdditionOfPositiveIntAndPositiveFloatNumbersTest(10, 10.02, 20.02)">TC_FUNC_0013_verifyAdditionOfPositiveIntAndPositiveFloatNumbersTest(10, 10.02, 20.02)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PROPINE_Sample_Automation_Test_Suite" title="com.propine.qa.testcases.TC_FUNC_0014_VerifyAdditionOfPositiveFloatAndPositiveIntNumbersTest" hash-for-method="TC_FUNC_0014_verifyAdditionOfPositiveFloatAndPositiveIntNumbersTest(10.02, 10, 20.02)">TC_FUNC_0014_verifyAdditionOfPositiveFloatAndPositiveIntNumbersTest(10.02, 10, 20.02)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PROPINE_Sample_Automation_Test_Suite" title="com.propine.qa.testcases.TC_FUNC_0017_VerifyAdditionOfNegativeIntAndNegativeFloatNumbersTest" hash-for-method="TC_FUNC_0017_verifyAdditionOfNegativeIntAndNegativeFloatNumbersTest(-10, -10.02, -20.02)">TC_FUNC_0017_verifyAdditionOfNegativeIntAndNegativeFloatNumbersTest(-10, -10.02, -20.02)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-PROPINE_Sample_Automation_Test_Suite" title="com.propine.qa.testcases.TC_FUNC_0018_VerifyAdditionOfNegativeFloatAndNegativeIntNumbersTest" hash-for-method="TC_FUNC_0018_verifyAdditionOfNegativeFloatAndNegativeIntNumbersTest(-10.02, -10, -20.02)">TC_FUNC_0018_verifyAdditionOfNegativeFloatAndNegativeIntNumbersTest(-10.02, -10, -20.02)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-PROPINE_Sample_Automation_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-PROPINE_Sample_Automation_Test_Suite" class="panel PROPINE_Sample_Automation_Test_Suite">
+          <div class="suite-PROPINE_Sample_Automation_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.propine.qa.testcases.TC_FUNC_0023_VerifyErrorMessageForNullValuesForFirstNumberAndSecondNumberTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_FUNC_0023_verifyErrorMessageForNullValueForSecondNumberTest(Enter valid numeric or float value for First Number, Enter valid numeric or float value for Second N...)">
+                  </a> <!-- TC_FUNC_0023_verifyErrorMessageForNullValueForSecondNumberTest(Enter valid numeric or float value for First Number, Enter valid numeric or float value for Second N...) -->
+                  <span class="method-name">TC_FUNC_0023_verifyErrorMessageForNullValueForSecondNumberTest</span>
+                  <span class="parameters">(Enter valid numeric or float value for First Number, Enter valid numeric or float value for Second Number)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Error Message verification for null value for First Number - FAILED expected [true] but found [false]
+	at com.propine.qa.testcases.TC_FUNC_0023_VerifyErrorMessageForNullValuesForFirstNumberAndSecondNumberTest.TC_FUNC_0023_verifyErrorMessageForNullValueForSecondNumberTest(TC_FUNC_0023_VerifyErrorMessageForNullValuesForFirstNumberAndSecondNumberTest.java:41)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PROPINE_Sample_Automation_Test_Suite-class-failed -->
+          <div class="suite-PROPINE_Sample_Automation_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.propine.qa.testcases.TC_FUNC_0027_VerifyErrorMessageForAlphaNumericValueForFirstNumberTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_FUNC_0027_verifyErrorMessageForAlphaNumericValueForFirstNumberTest(1a, 10, Enter valid numeric or float value for First Number)">
+                  </a> <!-- TC_FUNC_0027_verifyErrorMessageForAlphaNumericValueForFirstNumberTest(1a, 10, Enter valid numeric or float value for First Number) -->
+                  <span class="method-name">TC_FUNC_0027_verifyErrorMessageForAlphaNumericValueForFirstNumberTest</span>
+                  <span class="parameters">(1a, 10, Enter valid numeric or float value for First Number)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Error Message verification for alpha-numeric value for First Number - FAILED expected [Enter valid numeric or float value for First Number] but found [11]
+	at com.propine.qa.testcases.TC_FUNC_0027_VerifyErrorMessageForAlphaNumericValueForFirstNumberTest.TC_FUNC_0027_verifyErrorMessageForAlphaNumericValueForFirstNumberTest(TC_FUNC_0027_VerifyErrorMessageForAlphaNumericValueForFirstNumberTest.java:40)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PROPINE_Sample_Automation_Test_Suite-class-failed -->
+          <div class="suite-PROPINE_Sample_Automation_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.propine.qa.testcases.TC_FIELD_0004_VerifySecondNumberForNonNumericValuesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_FIELD_0004_verifySecondNumberForNonNumericValuesTest(ab$&amp;)">
+                  </a> <!-- TC_FIELD_0004_verifySecondNumberForNonNumericValuesTest(ab$&) -->
+                  <span class="method-name">TC_FIELD_0004_verifySecondNumberForNonNumericValuesTest</span>
+                  <span class="parameters">(ab$&)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Field verification for Non-Numeric Values - FAILED
+	at com.propine.qa.testcases.TC_FIELD_0004_VerifySecondNumberForNonNumericValuesTest.TC_FIELD_0004_verifySecondNumberForNonNumericValuesTest(TC_FIELD_0004_VerifySecondNumberForNonNumericValuesTest.java:41)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PROPINE_Sample_Automation_Test_Suite-class-failed -->
+          <div class="suite-PROPINE_Sample_Automation_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.propine.qa.testcases.TC_FUNC_0024_VerifyErrorMessageForNonNumericValueForFirstNumberTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_FUNC_0024_verifyErrorMessageForNonNumericValueForFirstNumberTest(ab#, 10, Enter valid numeric or float value for First Number)">
+                  </a> <!-- TC_FUNC_0024_verifyErrorMessageForNonNumericValueForFirstNumberTest(ab#, 10, Enter valid numeric or float value for First Number) -->
+                  <span class="method-name">TC_FUNC_0024_verifyErrorMessageForNonNumericValueForFirstNumberTest</span>
+                  <span class="parameters">(ab#, 10, Enter valid numeric or float value for First Number)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Error Message verification for non-numeric value for First Number - FAILED expected [Enter valid numeric or float value for First Number] but found [NaN]
+	at com.propine.qa.testcases.TC_FUNC_0024_VerifyErrorMessageForNonNumericValueForFirstNumberTest.TC_FUNC_0024_verifyErrorMessageForNonNumericValueForFirstNumberTest(TC_FUNC_0024_VerifyErrorMessageForNonNumericValueForFirstNumberTest.java:40)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PROPINE_Sample_Automation_Test_Suite-class-failed -->
+          <div class="suite-PROPINE_Sample_Automation_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.propine.qa.testcases.TC_FIELD_0003_VerifyFirstNumberForNonNumericValuesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_FIELD_0003_verifyFirstNumberForNonNumericValuesTest(ab$&amp;)">
+                  </a> <!-- TC_FIELD_0003_verifyFirstNumberForNonNumericValuesTest(ab$&) -->
+                  <span class="method-name">TC_FIELD_0003_verifyFirstNumberForNonNumericValuesTest</span>
+                  <span class="parameters">(ab$&)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Field verification for Non-Numeric Values - FAILED
+	at com.propine.qa.testcases.TC_FIELD_0003_VerifyFirstNumberForNonNumericValuesTest.TC_FIELD_0003_verifyFirstNumberForNonNumericValuesTest(TC_FIELD_0003_VerifyFirstNumberForNonNumericValuesTest.java:41)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PROPINE_Sample_Automation_Test_Suite-class-failed -->
+          <div class="suite-PROPINE_Sample_Automation_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.propine.qa.testcases.TC_FUNC_0019_VerifyAdditionOfTwoPositiveFloatNumbersWithDiffDecimalsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_FUNC_0019_verifyAdditionOfTwoPositiveFloatNumbersWithDiffDecimalsTest(2.001, 4.0001, 6.0011)">
+                  </a> <!-- TC_FUNC_0019_verifyAdditionOfTwoPositiveFloatNumbersWithDiffDecimalsTest(2.001, 4.0001, 6.0011) -->
+                  <span class="method-name">TC_FUNC_0019_verifyAdditionOfTwoPositiveFloatNumbersWithDiffDecimalsTest</span>
+                  <span class="parameters">(2.001, 4.0001, 6.0011)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Addition of two positive float numbers with different decimals - FAILED expected [6.0011] but found [6.001099999999999]
+	at com.propine.qa.testcases.TC_FUNC_0019_VerifyAdditionOfTwoPositiveFloatNumbersWithDiffDecimalsTest.TC_FUNC_0019_verifyAdditionOfTwoPositiveFloatNumbersWithDiffDecimalsTest(TC_FUNC_0019_VerifyAdditionOfTwoPositiveFloatNumbersWithDiffDecimalsTest.java:41)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PROPINE_Sample_Automation_Test_Suite-class-failed -->
+          <div class="suite-PROPINE_Sample_Automation_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.propine.qa.testcases.TC_FUNC_0015_VerifyAdditionOfNegativeIntAndPositiveFloatNumbersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_FUNC_0015_verifyAdditionOfNegativeIntAndPositiveFloatNumbersTest(-10, 10.02, 0.02)">
+                  </a> <!-- TC_FUNC_0015_verifyAdditionOfNegativeIntAndPositiveFloatNumbersTest(-10, 10.02, 0.02) -->
+                  <span class="method-name">TC_FUNC_0015_verifyAdditionOfNegativeIntAndPositiveFloatNumbersTest</span>
+                  <span class="parameters">(-10, 10.02, 0.02)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Addition of negative integer and positive float numbers - FAILED expected [0.02] but found [0.019999999999999574]
+	at com.propine.qa.testcases.TC_FUNC_0015_VerifyAdditionOfNegativeIntAndPositiveFloatNumbersTest.TC_FUNC_0015_verifyAdditionOfNegativeIntAndPositiveFloatNumbersTest(TC_FUNC_0015_VerifyAdditionOfNegativeIntAndPositiveFloatNumbersTest.java:41)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PROPINE_Sample_Automation_Test_Suite-class-failed -->
+          <div class="suite-PROPINE_Sample_Automation_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.propine.qa.testcases.TC_FUNC_0032_VerifyErrorMessageForNumericValueWithSpaceForFirstNumberAndSecondNumberTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_FUNC_0032_verifyErrorMessageForNumericValueWithSpaceForFirstNumberAndSecondNumberTest(     5     ,      2   , Enter valid numeric or float value for First Number, Enter valid numeric or ...)">
+                  </a> <!-- TC_FUNC_0032_verifyErrorMessageForNumericValueWithSpaceForFirstNumberAndSecondNumberTest(     5     ,      2   , Enter valid numeric or float value for First Number, Enter valid numeric or ...) -->
+                  <span class="method-name">TC_FUNC_0032_verifyErrorMessageForNumericValueWithSpaceForFirstNumberAndSecondNumberTest</span>
+                  <span class="parameters">(     5     ,      2   , Enter valid numeric or float value for First Number, Enter valid numeric or float value for Second Number)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Error Message verification for numeric value with space for First Number - FAILED expected [true] but found [false]
+	at com.propine.qa.testcases.TC_FUNC_0032_VerifyErrorMessageForNumericValueWithSpaceForFirstNumberAndSecondNumberTest.TC_FUNC_0032_verifyErrorMessageForNumericValueWithSpaceForFirstNumberAndSecondNumberTest(TC_FUNC_0032_VerifyErrorMessageForNumericValueWithSpaceForFirstNumberAndSecondNumberTest.java:41)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PROPINE_Sample_Automation_Test_Suite-class-failed -->
+          <div class="suite-PROPINE_Sample_Automation_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.propine.qa.testcases.TC_FUNC_0031_VerifyErrorMessageForNumericValueWithSpaceForSecondNumberTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_FUNC_0031_verifyErrorMessageForNumericValueWithSpaceForSecondNumberTest(10,     2  , Enter valid numeric or float value for Second Number)">
+                  </a> <!-- TC_FUNC_0031_verifyErrorMessageForNumericValueWithSpaceForSecondNumberTest(10,     2  , Enter valid numeric or float value for Second Number) -->
+                  <span class="method-name">TC_FUNC_0031_verifyErrorMessageForNumericValueWithSpaceForSecondNumberTest</span>
+                  <span class="parameters">(10,     2  , Enter valid numeric or float value for Second Number)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Error Message verification for numeric value with space for Second Number - FAILED expected [Enter valid numeric or float value for Second Number] but found [12]
+	at com.propine.qa.testcases.TC_FUNC_0031_VerifyErrorMessageForNumericValueWithSpaceForSecondNumberTest.TC_FUNC_0031_verifyErrorMessageForNumericValueWithSpaceForSecondNumberTest(TC_FUNC_0031_VerifyErrorMessageForNumericValueWithSpaceForSecondNumberTest.java:40)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PROPINE_Sample_Automation_Test_Suite-class-failed -->
+          <div class="suite-PROPINE_Sample_Automation_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.propine.qa.testcases.TC_FUNC_0022_VerifyErrorMessageForNullValueForSecondNumberTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_FUNC_0022_verifyErrorMessageForNullValueForSecondNumberTest(10, Enter valid numeric or float value for Second Number)">
+                  </a> <!-- TC_FUNC_0022_verifyErrorMessageForNullValueForSecondNumberTest(10, Enter valid numeric or float value for Second Number) -->
+                  <span class="method-name">TC_FUNC_0022_verifyErrorMessageForNullValueForSecondNumberTest</span>
+                  <span class="parameters">(10, Enter valid numeric or float value for Second Number)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Error Message verification for null value for Second Number - FAILED expected [Enter valid numeric or float value for Second Number] but found [NaN]
+	at com.propine.qa.testcases.TC_FUNC_0022_VerifyErrorMessageForNullValueForSecondNumberTest.TC_FUNC_0022_verifyErrorMessageForNullValueForSecondNumberTest(TC_FUNC_0022_VerifyErrorMessageForNullValueForSecondNumberTest.java:40)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PROPINE_Sample_Automation_Test_Suite-class-failed -->
+          <div class="suite-PROPINE_Sample_Automation_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.propine.qa.testcases.TC_FUNC_0016_VerifyAdditionOfNegativeFloatAndPositiveIntNumbersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_FUNC_0016_verifyAdditionOfNegativeFloatAndPositiveIntNumbersTest(-10.015, 10, -0.015)">
+                  </a> <!-- TC_FUNC_0016_verifyAdditionOfNegativeFloatAndPositiveIntNumbersTest(-10.015, 10, -0.015) -->
+                  <span class="method-name">TC_FUNC_0016_verifyAdditionOfNegativeFloatAndPositiveIntNumbersTest</span>
+                  <span class="parameters">(-10.015, 10, -0.015)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Addition of negative float and positive integer numbers - FAILED expected [-0.015] but found [-0.015000000000000568]
+	at com.propine.qa.testcases.TC_FUNC_0016_VerifyAdditionOfNegativeFloatAndPositiveIntNumbersTest.TC_FUNC_0016_verifyAdditionOfNegativeFloatAndPositiveIntNumbersTest(TC_FUNC_0016_VerifyAdditionOfNegativeFloatAndPositiveIntNumbersTest.java:41)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PROPINE_Sample_Automation_Test_Suite-class-failed -->
+          <div class="suite-PROPINE_Sample_Automation_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.propine.qa.testcases.TC_FUNC_0030_VerifyErrorMessageForNumericValueWithSpaceForFirstNumberTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_FUNC_0030_verifyErrorMessageForNumericValueWithSpaceForFirstNumberTest(   5  , 10, Enter valid numeric or float value for First Number)">
+                  </a> <!-- TC_FUNC_0030_verifyErrorMessageForNumericValueWithSpaceForFirstNumberTest(   5  , 10, Enter valid numeric or float value for First Number) -->
+                  <span class="method-name">TC_FUNC_0030_verifyErrorMessageForNumericValueWithSpaceForFirstNumberTest</span>
+                  <span class="parameters">(   5  , 10, Enter valid numeric or float value for First Number)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Error Message verification for numeric value with space for First Number - FAILED expected [Enter valid numeric or float value for First Number] but found [15]
+	at com.propine.qa.testcases.TC_FUNC_0030_VerifyErrorMessageForNumericValueWithSpaceForFirstNumberTest.TC_FUNC_0030_verifyErrorMessageForNumericValueWithSpaceForFirstNumberTest(TC_FUNC_0030_VerifyErrorMessageForNumericValueWithSpaceForFirstNumberTest.java:40)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PROPINE_Sample_Automation_Test_Suite-class-failed -->
+          <div class="suite-PROPINE_Sample_Automation_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.propine.qa.testcases.TC_FUNC_0021_VerifyErrorMessageForNullValueForFirstNumberTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_FUNC_0021_verifyErrorMessageForNullValueForFirstNumberTest(10, Enter valid numeric or float value for First Number)">
+                  </a> <!-- TC_FUNC_0021_verifyErrorMessageForNullValueForFirstNumberTest(10, Enter valid numeric or float value for First Number) -->
+                  <span class="method-name">TC_FUNC_0021_verifyErrorMessageForNullValueForFirstNumberTest</span>
+                  <span class="parameters">(10, Enter valid numeric or float value for First Number)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Error Message verification for null value for First Number - FAILED expected [Enter valid numeric or float value for First Number] but found [NaN]
+	at com.propine.qa.testcases.TC_FUNC_0021_VerifyErrorMessageForNullValueForFirstNumberTest.TC_FUNC_0021_verifyErrorMessageForNullValueForFirstNumberTest(TC_FUNC_0021_VerifyErrorMessageForNullValueForFirstNumberTest.java:40)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PROPINE_Sample_Automation_Test_Suite-class-failed -->
+          <div class="suite-PROPINE_Sample_Automation_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.propine.qa.testcases.TC_FUNC_0026_VerifyErrorMessageForNonNumericValueForFirstNumberAndSecondNumberTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_FUNC_0026_verifyErrorMessageForNonNumericValueForFirstNumberAndSecondNumberTest(ab#, ab#, Enter valid numeric or float value for First Number, Enter valid numeric or float value fo...)">
+                  </a> <!-- TC_FUNC_0026_verifyErrorMessageForNonNumericValueForFirstNumberAndSecondNumberTest(ab#, ab#, Enter valid numeric or float value for First Number, Enter valid numeric or float value fo...) -->
+                  <span class="method-name">TC_FUNC_0026_verifyErrorMessageForNonNumericValueForFirstNumberAndSecondNumberTest</span>
+                  <span class="parameters">(ab#, ab#, Enter valid numeric or float value for First Number, Enter valid numeric or float value for Second Number)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Error Message verification for non-numeric value for First Number - FAILED expected [true] but found [false]
+	at com.propine.qa.testcases.TC_FUNC_0026_VerifyErrorMessageForNonNumericValueForFirstNumberAndSecondNumberTest.TC_FUNC_0026_verifyErrorMessageForNonNumericValueForFirstNumberAndSecondNumberTest(TC_FUNC_0026_VerifyErrorMessageForNonNumericValueForFirstNumberAndSecondNumberTest.java:41)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PROPINE_Sample_Automation_Test_Suite-class-failed -->
+          <div class="suite-PROPINE_Sample_Automation_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.propine.qa.testcases.TC_FUNC_0011_VerifyAdditionOfPositiveAndNegativeFloatNumbersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_FUNC_0011_verifyAdditionOfPositiveAndNegativeFloatNumbersTest(10.04, -10.02, 0.02)">
+                  </a> <!-- TC_FUNC_0011_verifyAdditionOfPositiveAndNegativeFloatNumbersTest(10.04, -10.02, 0.02) -->
+                  <span class="method-name">TC_FUNC_0011_verifyAdditionOfPositiveAndNegativeFloatNumbersTest</span>
+                  <span class="parameters">(10.04, -10.02, 0.02)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Addition of positive and negative float numbers - FAILED expected [0.02] but found [0.019999999999999574]
+	at com.propine.qa.testcases.TC_FUNC_0011_VerifyAdditionOfPositiveAndNegativeFloatNumbersTest.TC_FUNC_0011_verifyAdditionOfPositiveAndNegativeFloatNumbersTest(TC_FUNC_0011_VerifyAdditionOfPositiveAndNegativeFloatNumbersTest.java:41)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PROPINE_Sample_Automation_Test_Suite-class-failed -->
+          <div class="suite-PROPINE_Sample_Automation_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.propine.qa.testcases.TC_FUNC_0020_VerifyAdditionOfTwoNegativeFloatNumbersWithDiffDecimalsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_FUNC_0020_verifyAdditionOfTwoNegativeFloatNumbersWithDiffDecimalsTest(-12.008, -2.0002, -14.0082)">
+                  </a> <!-- TC_FUNC_0020_verifyAdditionOfTwoNegativeFloatNumbersWithDiffDecimalsTest(-12.008, -2.0002, -14.0082) -->
+                  <span class="method-name">TC_FUNC_0020_verifyAdditionOfTwoNegativeFloatNumbersWithDiffDecimalsTest</span>
+                  <span class="parameters">(-12.008, -2.0002, -14.0082)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Addition of two positive float numbers with different decimals - FAILED expected [-14.0082] but found [-14.008199999999999]
+	at com.propine.qa.testcases.TC_FUNC_0020_VerifyAdditionOfTwoNegativeFloatNumbersWithDiffDecimalsTest.TC_FUNC_0020_verifyAdditionOfTwoNegativeFloatNumbersWithDiffDecimalsTest(TC_FUNC_0020_VerifyAdditionOfTwoNegativeFloatNumbersWithDiffDecimalsTest.java:41)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PROPINE_Sample_Automation_Test_Suite-class-failed -->
+          <div class="suite-PROPINE_Sample_Automation_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.propine.qa.testcases.TC_FUNC_0012_VerifyAdditionOfNegativeAndPositiveFloatNumbersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_FUNC_0012_verifyAdditionOfNegativeAndPositiveFloatNumbersTest(-10.04, 10.02, -0.02)">
+                  </a> <!-- TC_FUNC_0012_verifyAdditionOfNegativeAndPositiveFloatNumbersTest(-10.04, 10.02, -0.02) -->
+                  <span class="method-name">TC_FUNC_0012_verifyAdditionOfNegativeAndPositiveFloatNumbersTest</span>
+                  <span class="parameters">(-10.04, 10.02, -0.02)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Addition of negative and positive float numbers - FAILED expected [-0.02] but found [-0.019999999999999574]
+	at com.propine.qa.testcases.TC_FUNC_0012_VerifyAdditionOfNegativeAndPositiveFloatNumbersTest.TC_FUNC_0012_verifyAdditionOfNegativeAndPositiveFloatNumbersTest(TC_FUNC_0012_VerifyAdditionOfNegativeAndPositiveFloatNumbersTest.java:41)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PROPINE_Sample_Automation_Test_Suite-class-failed -->
+          <div class="suite-PROPINE_Sample_Automation_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.propine.qa.testcases.TC_FUNC_0029_VerifyErrorMessageForAlphaNumericValueForFirstNumberAndSecondNumberTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_FUNC_0029_verifyErrorMessageForAlphaNumericValueForFirstNumberAndSecondNumberTest(2a, 3b, Enter valid numeric or float value for First Number, Enter valid numeric or float value for ...)">
+                  </a> <!-- TC_FUNC_0029_verifyErrorMessageForAlphaNumericValueForFirstNumberAndSecondNumberTest(2a, 3b, Enter valid numeric or float value for First Number, Enter valid numeric or float value for ...) -->
+                  <span class="method-name">TC_FUNC_0029_verifyErrorMessageForAlphaNumericValueForFirstNumberAndSecondNumberTest</span>
+                  <span class="parameters">(2a, 3b, Enter valid numeric or float value for First Number, Enter valid numeric or float value for Second Number)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Error Message verification for alpha-numeric value for First Number - FAILED expected [true] but found [false]
+	at com.propine.qa.testcases.TC_FUNC_0029_VerifyErrorMessageForAlphaNumericValueForFirstNumberAndSecondNumberTest.TC_FUNC_0029_verifyErrorMessageForAlphaNumericValueForFirstNumberAndSecondNumberTest(TC_FUNC_0029_VerifyErrorMessageForAlphaNumericValueForFirstNumberAndSecondNumberTest.java:41)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PROPINE_Sample_Automation_Test_Suite-class-failed -->
+          <div class="suite-PROPINE_Sample_Automation_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.propine.qa.testcases.TC_FUNC_0025_VerifyErrorMessageForNonNumericValueForSecondNumberTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_FUNC_0025_verifyErrorMessageForNonNumericValueForSecondNumberTest(10, ab#, Enter valid numeric or float value for Second Number)">
+                  </a> <!-- TC_FUNC_0025_verifyErrorMessageForNonNumericValueForSecondNumberTest(10, ab#, Enter valid numeric or float value for Second Number) -->
+                  <span class="method-name">TC_FUNC_0025_verifyErrorMessageForNonNumericValueForSecondNumberTest</span>
+                  <span class="parameters">(10, ab#, Enter valid numeric or float value for Second Number)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Error Message verification for non-numeric value for Second Number - FAILED expected [Enter valid numeric or float value for Second Number] but found [NaN]
+	at com.propine.qa.testcases.TC_FUNC_0025_VerifyErrorMessageForNonNumericValueForSecondNumberTest.TC_FUNC_0025_verifyErrorMessageForNonNumericValueForSecondNumberTest(TC_FUNC_0025_VerifyErrorMessageForNonNumericValueForSecondNumberTest.java:40)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PROPINE_Sample_Automation_Test_Suite-class-failed -->
+          <div class="suite-PROPINE_Sample_Automation_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.propine.qa.testcases.TC_FUNC_0028_VerifyErrorMessageForAlphaNumericValueForSecondNumberTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_FUNC_0028_verifyErrorMessageForAlphaNumericValueForSecondNumberTest(10, b2, Enter valid numeric or float value for Second Number)">
+                  </a> <!-- TC_FUNC_0028_verifyErrorMessageForAlphaNumericValueForSecondNumberTest(10, b2, Enter valid numeric or float value for Second Number) -->
+                  <span class="method-name">TC_FUNC_0028_verifyErrorMessageForAlphaNumericValueForSecondNumberTest</span>
+                  <span class="parameters">(10, b2, Enter valid numeric or float value for Second Number)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Error Message verification for alpha-numeric value for Second Number - FAILED expected [Enter valid numeric or float value for Second Number] but found [NaN]
+	at com.propine.qa.testcases.TC_FUNC_0028_VerifyErrorMessageForAlphaNumericValueForSecondNumberTest.TC_FUNC_0028_verifyErrorMessageForAlphaNumericValueForSecondNumberTest(TC_FUNC_0028_VerifyErrorMessageForAlphaNumericValueForSecondNumberTest.java:40)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PROPINE_Sample_Automation_Test_Suite-class-failed -->
+          <div class="suite-PROPINE_Sample_Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.propine.qa.testcases.TC_FUNC_0007_VerifyAdditionOfNegativeAndZeroIntegerNumbersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_FUNC_0007_verifyAdditionOfNegativeAndZeroIntegerNumbersTest(-20, 0, -20)">
+                  </a> <!-- TC_FUNC_0007_verifyAdditionOfNegativeAndZeroIntegerNumbersTest(-20, 0, -20) -->
+                  <span class="method-name">TC_FUNC_0007_verifyAdditionOfNegativeAndZeroIntegerNumbersTest</span>
+                  <span class="parameters">(-20, 0, -20)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PROPINE_Sample_Automation_Test_Suite-class-passed -->
+          <div class="suite-PROPINE_Sample_Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.propine.qa.testcases.TC_FUNC_0014_VerifyAdditionOfPositiveFloatAndPositiveIntNumbersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_FUNC_0014_verifyAdditionOfPositiveFloatAndPositiveIntNumbersTest(10.02, 10, 20.02)">
+                  </a> <!-- TC_FUNC_0014_verifyAdditionOfPositiveFloatAndPositiveIntNumbersTest(10.02, 10, 20.02) -->
+                  <span class="method-name">TC_FUNC_0014_verifyAdditionOfPositiveFloatAndPositiveIntNumbersTest</span>
+                  <span class="parameters">(10.02, 10, 20.02)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PROPINE_Sample_Automation_Test_Suite-class-passed -->
+          <div class="suite-PROPINE_Sample_Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.propine.qa.testcases.TC_FIELD_0002_VerifySecondNumberForNumericValuesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_FIELD_0002_verifySecondNumberForNumericValuesTest(20.0)">
+                  </a> <!-- TC_FIELD_0002_verifySecondNumberForNumericValuesTest(20.0) -->
+                  <span class="method-name">TC_FIELD_0002_verifySecondNumberForNumericValuesTest</span>
+                  <span class="parameters">(20.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PROPINE_Sample_Automation_Test_Suite-class-passed -->
+          <div class="suite-PROPINE_Sample_Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.propine.qa.testcases.TC_FUNC_0003_VerifyAdditionOfTwoZeroNumbersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_FUNC_0003_verifyAdditionOfTwoZeroNumbersTest(0, 0, 0)">
+                  </a> <!-- TC_FUNC_0003_verifyAdditionOfTwoZeroNumbersTest(0, 0, 0) -->
+                  <span class="method-name">TC_FUNC_0003_verifyAdditionOfTwoZeroNumbersTest</span>
+                  <span class="parameters">(0, 0, 0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PROPINE_Sample_Automation_Test_Suite-class-passed -->
+          <div class="suite-PROPINE_Sample_Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.propine.qa.testcases.TC_FUNC_0017_VerifyAdditionOfNegativeIntAndNegativeFloatNumbersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_FUNC_0017_verifyAdditionOfNegativeIntAndNegativeFloatNumbersTest(-10, -10.02, -20.02)">
+                  </a> <!-- TC_FUNC_0017_verifyAdditionOfNegativeIntAndNegativeFloatNumbersTest(-10, -10.02, -20.02) -->
+                  <span class="method-name">TC_FUNC_0017_verifyAdditionOfNegativeIntAndNegativeFloatNumbersTest</span>
+                  <span class="parameters">(-10, -10.02, -20.02)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PROPINE_Sample_Automation_Test_Suite-class-passed -->
+          <div class="suite-PROPINE_Sample_Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.propine.qa.testcases.TC_FUNC_0002_VerifyAdditionOfTwoNegativeIntegerNumbersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_FUNC_0002_verifyAdditionOfTwoNegativeIntegerNumbersTest(-10.0, -20.0, -30.0)">
+                  </a> <!-- TC_FUNC_0002_verifyAdditionOfTwoNegativeIntegerNumbersTest(-10.0, -20.0, -30.0) -->
+                  <span class="method-name">TC_FUNC_0002_verifyAdditionOfTwoNegativeIntegerNumbersTest</span>
+                  <span class="parameters">(-10.0, -20.0, -30.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PROPINE_Sample_Automation_Test_Suite-class-passed -->
+          <div class="suite-PROPINE_Sample_Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.propine.qa.testcases.TC_FUNC_0005_VerifyAdditionOfNegativeAndPositiveIntegerNumbersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_FUNC_0005_verifyAdditionOfNegativeAndPositiveIntegerNumbersTest(-20, 10, -10)">
+                  </a> <!-- TC_FUNC_0005_verifyAdditionOfNegativeAndPositiveIntegerNumbersTest(-20, 10, -10) -->
+                  <span class="method-name">TC_FUNC_0005_verifyAdditionOfNegativeAndPositiveIntegerNumbersTest</span>
+                  <span class="parameters">(-20, 10, -10)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PROPINE_Sample_Automation_Test_Suite-class-passed -->
+          <div class="suite-PROPINE_Sample_Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.propine.qa.testcases.TC_FUNC_0006_VerifyAdditionOfPositiveAndZeroIntegerNumbersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_FUNC_0006_verifyAdditionOfPositiveAndZeroIntegerNumbersTest(10.0, 0, 10)">
+                  </a> <!-- TC_FUNC_0006_verifyAdditionOfPositiveAndZeroIntegerNumbersTest(10.0, 0, 10) -->
+                  <span class="method-name">TC_FUNC_0006_verifyAdditionOfPositiveAndZeroIntegerNumbersTest</span>
+                  <span class="parameters">(10.0, 0, 10)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PROPINE_Sample_Automation_Test_Suite-class-passed -->
+          <div class="suite-PROPINE_Sample_Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.propine.qa.testcases.TC_FUNC_0018_VerifyAdditionOfNegativeFloatAndNegativeIntNumbersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_FUNC_0018_verifyAdditionOfNegativeFloatAndNegativeIntNumbersTest(-10.02, -10, -20.02)">
+                  </a> <!-- TC_FUNC_0018_verifyAdditionOfNegativeFloatAndNegativeIntNumbersTest(-10.02, -10, -20.02) -->
+                  <span class="method-name">TC_FUNC_0018_verifyAdditionOfNegativeFloatAndNegativeIntNumbersTest</span>
+                  <span class="parameters">(-10.02, -10, -20.02)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PROPINE_Sample_Automation_Test_Suite-class-passed -->
+          <div class="suite-PROPINE_Sample_Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.propine.qa.testcases.TC_FUNC_0008_VerifyAdditionOfTwoZeroIntegerNumbersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_FUNC_0008_verifyAdditionOfTwoZeroIntegerNumbersTest(0, 0, 0)">
+                  </a> <!-- TC_FUNC_0008_verifyAdditionOfTwoZeroIntegerNumbersTest(0, 0, 0) -->
+                  <span class="method-name">TC_FUNC_0008_verifyAdditionOfTwoZeroIntegerNumbersTest</span>
+                  <span class="parameters">(0, 0, 0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PROPINE_Sample_Automation_Test_Suite-class-passed -->
+          <div class="suite-PROPINE_Sample_Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.propine.qa.testcases.TC_FUNC_0013_VerifyAdditionOfPositiveIntAndPositiveFloatNumbersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_FUNC_0013_verifyAdditionOfPositiveIntAndPositiveFloatNumbersTest(10, 10.02, 20.02)">
+                  </a> <!-- TC_FUNC_0013_verifyAdditionOfPositiveIntAndPositiveFloatNumbersTest(10, 10.02, 20.02) -->
+                  <span class="method-name">TC_FUNC_0013_verifyAdditionOfPositiveIntAndPositiveFloatNumbersTest</span>
+                  <span class="parameters">(10, 10.02, 20.02)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PROPINE_Sample_Automation_Test_Suite-class-passed -->
+          <div class="suite-PROPINE_Sample_Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.propine.qa.testcases.TC_FIELD_0001_VerifyFirstNumberForNumericValuesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_FIELD_0001_verifyFirstNumberForNumericValuesTest(10.0)">
+                  </a> <!-- TC_FIELD_0001_verifyFirstNumberForNumericValuesTest(10.0) -->
+                  <span class="method-name">TC_FIELD_0001_verifyFirstNumberForNumericValuesTest</span>
+                  <span class="parameters">(10.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PROPINE_Sample_Automation_Test_Suite-class-passed -->
+          <div class="suite-PROPINE_Sample_Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.propine.qa.testcases.TC_FUNC_0010_VerifyAdditionOfTwoNegativeFloatNumbersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_FUNC_0010_verifyAdditionOfTwoNegativeFloatNumbersTest(-10.04, -10.02, -20.06)">
+                  </a> <!-- TC_FUNC_0010_verifyAdditionOfTwoNegativeFloatNumbersTest(-10.04, -10.02, -20.06) -->
+                  <span class="method-name">TC_FUNC_0010_verifyAdditionOfTwoNegativeFloatNumbersTest</span>
+                  <span class="parameters">(-10.04, -10.02, -20.06)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PROPINE_Sample_Automation_Test_Suite-class-passed -->
+          <div class="suite-PROPINE_Sample_Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.propine.qa.testcases.TC_FUNC_0001_VerifyAdditionOfTwoPositiveIntegerNumbersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_FUNC_0001_verifyAdditionOfTwoPositiveIntegerNumbersTest(10.0, 20.0, 30.0)">
+                  </a> <!-- TC_FUNC_0001_verifyAdditionOfTwoPositiveIntegerNumbersTest(10.0, 20.0, 30.0) -->
+                  <span class="method-name">TC_FUNC_0001_verifyAdditionOfTwoPositiveIntegerNumbersTest</span>
+                  <span class="parameters">(10.0, 20.0, 30.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PROPINE_Sample_Automation_Test_Suite-class-passed -->
+          <div class="suite-PROPINE_Sample_Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.propine.qa.testcases.TC_FUNC_0009_VerifyAdditionOfTwoPositiveFloatNumbersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_FUNC_0009_verifyAdditionOfTwoPositiveFloatNumbersTest(10.04, 10.02, 20.06)">
+                  </a> <!-- TC_FUNC_0009_verifyAdditionOfTwoPositiveFloatNumbersTest(10.04, 10.02, 20.06) -->
+                  <span class="method-name">TC_FUNC_0009_verifyAdditionOfTwoPositiveFloatNumbersTest</span>
+                  <span class="parameters">(10.04, 10.02, 20.06)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PROPINE_Sample_Automation_Test_Suite-class-passed -->
+          <div class="suite-PROPINE_Sample_Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.propine.qa.testcases.TC_FUNC_0004_VerifyAdditionOfPositiveAndNegativeIntegerNumbersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_FUNC_0004_verifyAdditionOfPositiveAndNegativeIntegerNumbersTest(10.0, -20, -10)">
+                  </a> <!-- TC_FUNC_0004_verifyAdditionOfPositiveAndNegativeIntegerNumbersTest(10.0, -20, -10) -->
+                  <span class="method-name">TC_FUNC_0004_verifyAdditionOfPositiveAndNegativeIntegerNumbersTest</span>
+                  <span class="parameters">(10.0, -20, -10)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PROPINE_Sample_Automation_Test_Suite-class-passed -->
+        </div> <!-- panel PROPINE_Sample_Automation_Test_Suite -->
+        <div panel-name="test-xml-PROPINE_Sample_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\User\workspace\PROPINESampleTest\src\main\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;PROPINE Sample Automation Test Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.propine.qa.util.ExtentReporterNG&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;PROPINE Addition Calculator Test Cases&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.propine.qa.testcases.TC_FIELD_0001_VerifyFirstNumberForNumericValuesTest&quot;/&gt;
+      &lt;class name=&quot;com.propine.qa.testcases.TC_FIELD_0002_VerifySecondNumberForNumericValuesTest&quot;/&gt;
+      &lt;class name=&quot;com.propine.qa.testcases.TC_FIELD_0003_VerifyFirstNumberForNonNumericValuesTest&quot;/&gt;
+      &lt;class name=&quot;com.propine.qa.testcases.TC_FIELD_0004_VerifySecondNumberForNonNumericValuesTest&quot;/&gt;
+      &lt;class name=&quot;com.propine.qa.testcases.TC_FUNC_0001_VerifyAdditionOfTwoPositiveIntegerNumbersTest&quot;/&gt;
+      &lt;class name=&quot;com.propine.qa.testcases.TC_FUNC_0002_VerifyAdditionOfTwoNegativeIntegerNumbersTest&quot;/&gt;
+      &lt;class name=&quot;com.propine.qa.testcases.TC_FUNC_0003_VerifyAdditionOfTwoZeroNumbersTest&quot;/&gt;
+      &lt;class name=&quot;com.propine.qa.testcases.TC_FUNC_0004_VerifyAdditionOfPositiveAndNegativeIntegerNumbersTest&quot;/&gt;
+      &lt;class name=&quot;com.propine.qa.testcases.TC_FUNC_0005_VerifyAdditionOfNegativeAndPositiveIntegerNumbersTest&quot;/&gt;
+      &lt;class name=&quot;com.propine.qa.testcases.TC_FUNC_0006_VerifyAdditionOfPositiveAndZeroIntegerNumbersTest&quot;/&gt;
+      &lt;class name=&quot;com.propine.qa.testcases.TC_FUNC_0007_VerifyAdditionOfNegativeAndZeroIntegerNumbersTest&quot;/&gt;
+      &lt;class name=&quot;com.propine.qa.testcases.TC_FUNC_0008_VerifyAdditionOfTwoZeroIntegerNumbersTest&quot;/&gt;
+      &lt;class name=&quot;com.propine.qa.testcases.TC_FUNC_0009_VerifyAdditionOfTwoPositiveFloatNumbersTest&quot;/&gt;
+      &lt;class name=&quot;com.propine.qa.testcases.TC_FUNC_0010_VerifyAdditionOfTwoNegativeFloatNumbersTest&quot;/&gt;
+      &lt;class name=&quot;com.propine.qa.testcases.TC_FUNC_0011_VerifyAdditionOfPositiveAndNegativeFloatNumbersTest&quot;/&gt;
+      &lt;class name=&quot;com.propine.qa.testcases.TC_FUNC_0012_VerifyAdditionOfNegativeAndPositiveFloatNumbersTest&quot;/&gt;
+      &lt;class name=&quot;com.propine.qa.testcases.TC_FUNC_0013_VerifyAdditionOfPositiveIntAndPositiveFloatNumbersTest&quot;/&gt;
+      &lt;class name=&quot;com.propine.qa.testcases.TC_FUNC_0014_VerifyAdditionOfPositiveFloatAndPositiveIntNumbersTest&quot;/&gt;
+      &lt;class name=&quot;com.propine.qa.testcases.TC_FUNC_0015_VerifyAdditionOfNegativeIntAndPositiveFloatNumbersTest&quot;/&gt;
+      &lt;class name=&quot;com.propine.qa.testcases.TC_FUNC_0016_VerifyAdditionOfNegativeFloatAndPositiveIntNumbersTest&quot;/&gt;
+      &lt;class name=&quot;com.propine.qa.testcases.TC_FUNC_0017_VerifyAdditionOfNegativeIntAndNegativeFloatNumbersTest&quot;/&gt;
+      &lt;class name=&quot;com.propine.qa.testcases.TC_FUNC_0018_VerifyAdditionOfNegativeFloatAndNegativeIntNumbersTest&quot;/&gt;
+      &lt;class name=&quot;com.propine.qa.testcases.TC_FUNC_0019_VerifyAdditionOfTwoPositiveFloatNumbersWithDiffDecimalsTest&quot;/&gt;
+      &lt;class name=&quot;com.propine.qa.testcases.TC_FUNC_0020_VerifyAdditionOfTwoNegativeFloatNumbersWithDiffDecimalsTest&quot;/&gt;
+      &lt;class name=&quot;com.propine.qa.testcases.TC_FUNC_0021_VerifyErrorMessageForNullValueForFirstNumberTest&quot;/&gt;
+      &lt;class name=&quot;com.propine.qa.testcases.TC_FUNC_0022_VerifyErrorMessageForNullValueForSecondNumberTest&quot;/&gt;
+      &lt;class name=&quot;com.propine.qa.testcases.TC_FUNC_0023_VerifyErrorMessageForNullValuesForFirstNumberAndSecondNumberTest&quot;/&gt;
+      &lt;class name=&quot;com.propine.qa.testcases.TC_FUNC_0024_VerifyErrorMessageForNonNumericValueForFirstNumberTest&quot;/&gt;
+      &lt;class name=&quot;com.propine.qa.testcases.TC_FUNC_0025_VerifyErrorMessageForNonNumericValueForSecondNumberTest&quot;/&gt;
+      &lt;class name=&quot;com.propine.qa.testcases.TC_FUNC_0026_VerifyErrorMessageForNonNumericValueForFirstNumberAndSecondNumberTest&quot;/&gt;
+      &lt;class name=&quot;com.propine.qa.testcases.TC_FUNC_0027_VerifyErrorMessageForAlphaNumericValueForFirstNumberTest&quot;/&gt;
+      &lt;class name=&quot;com.propine.qa.testcases.TC_FUNC_0028_VerifyErrorMessageForAlphaNumericValueForSecondNumberTest&quot;/&gt;
+      &lt;class name=&quot;com.propine.qa.testcases.TC_FUNC_0029_VerifyErrorMessageForAlphaNumericValueForFirstNumberAndSecondNumberTest&quot;/&gt;
+      &lt;class name=&quot;com.propine.qa.testcases.TC_FUNC_0030_VerifyErrorMessageForNumericValueWithSpaceForFirstNumberTest&quot;/&gt;
+      &lt;class name=&quot;com.propine.qa.testcases.TC_FUNC_0031_VerifyErrorMessageForNumericValueWithSpaceForSecondNumberTest&quot;/&gt;
+      &lt;class name=&quot;com.propine.qa.testcases.TC_FUNC_0032_VerifyErrorMessageForNumericValueWithSpaceForFirstNumberAndSecondNumberTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- PROPINE Addition Calculator Test Cases --&gt;
+&lt;/suite&gt; &lt;!-- PROPINE Sample Automation Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-PROPINE_Sample_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for PROPINE Sample Automation Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">PROPINE Addition Calculator Test Cases (36 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-PROPINE_Sample_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for PROPINE Sample Automation Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-PROPINE_Sample_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for PROPINE Sample Automation Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_PROPINE_Sample_Automation_Test_Suite');
+function tableData_PROPINE_Sample_Automation_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(36);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TC_FUNC_0032_verifyErrorMessageForNumericValueWithSpaceForFirstNumberAndSecondNumberTest')
+data.setCell(0, 2, 'com.propine.qa.testcases.TC_FUNC_0032_VerifyErrorMessageForNumericValueWithSpaceForFirstNumberAndSecondNumberTest')
+data.setCell(0, 3, 3832);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TC_FUNC_0010_verifyAdditionOfTwoNegativeFloatNumbersTest')
+data.setCell(1, 2, 'com.propine.qa.testcases.TC_FUNC_0010_VerifyAdditionOfTwoNegativeFloatNumbersTest')
+data.setCell(1, 3, 3661);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TC_FUNC_0003_verifyAdditionOfTwoZeroNumbersTest')
+data.setCell(2, 2, 'com.propine.qa.testcases.TC_FUNC_0003_VerifyAdditionOfTwoZeroNumbersTest')
+data.setCell(2, 3, 3404);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TC_FUNC_0006_verifyAdditionOfPositiveAndZeroIntegerNumbersTest')
+data.setCell(3, 2, 'com.propine.qa.testcases.TC_FUNC_0006_VerifyAdditionOfPositiveAndZeroIntegerNumbersTest')
+data.setCell(3, 3, 3394);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TC_FUNC_0009_verifyAdditionOfTwoPositiveFloatNumbersTest')
+data.setCell(4, 2, 'com.propine.qa.testcases.TC_FUNC_0009_VerifyAdditionOfTwoPositiveFloatNumbersTest')
+data.setCell(4, 3, 3382);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TC_FUNC_0001_verifyAdditionOfTwoPositiveIntegerNumbersTest')
+data.setCell(5, 2, 'com.propine.qa.testcases.TC_FUNC_0001_VerifyAdditionOfTwoPositiveIntegerNumbersTest')
+data.setCell(5, 3, 3345);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TC_FUNC_0020_verifyAdditionOfTwoNegativeFloatNumbersWithDiffDecimalsTest')
+data.setCell(6, 2, 'com.propine.qa.testcases.TC_FUNC_0020_VerifyAdditionOfTwoNegativeFloatNumbersWithDiffDecimalsTest')
+data.setCell(6, 3, 3309);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TC_FUNC_0026_verifyErrorMessageForNonNumericValueForFirstNumberAndSecondNumberTest')
+data.setCell(7, 2, 'com.propine.qa.testcases.TC_FUNC_0026_VerifyErrorMessageForNonNumericValueForFirstNumberAndSecondNumberTest')
+data.setCell(7, 3, 3291);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TC_FUNC_0012_verifyAdditionOfNegativeAndPositiveFloatNumbersTest')
+data.setCell(8, 2, 'com.propine.qa.testcases.TC_FUNC_0012_VerifyAdditionOfNegativeAndPositiveFloatNumbersTest')
+data.setCell(8, 3, 3271);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'TC_FUNC_0011_verifyAdditionOfPositiveAndNegativeFloatNumbersTest')
+data.setCell(9, 2, 'com.propine.qa.testcases.TC_FUNC_0011_VerifyAdditionOfPositiveAndNegativeFloatNumbersTest')
+data.setCell(9, 3, 3268);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'TC_FUNC_0004_verifyAdditionOfPositiveAndNegativeIntegerNumbersTest')
+data.setCell(10, 2, 'com.propine.qa.testcases.TC_FUNC_0004_VerifyAdditionOfPositiveAndNegativeIntegerNumbersTest')
+data.setCell(10, 3, 3264);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'TC_FUNC_0013_verifyAdditionOfPositiveIntAndPositiveFloatNumbersTest')
+data.setCell(11, 2, 'com.propine.qa.testcases.TC_FUNC_0013_VerifyAdditionOfPositiveIntAndPositiveFloatNumbersTest')
+data.setCell(11, 3, 3254);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'TC_FUNC_0031_verifyErrorMessageForNumericValueWithSpaceForSecondNumberTest')
+data.setCell(12, 2, 'com.propine.qa.testcases.TC_FUNC_0031_VerifyErrorMessageForNumericValueWithSpaceForSecondNumberTest')
+data.setCell(12, 3, 3247);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'TC_FUNC_0007_verifyAdditionOfNegativeAndZeroIntegerNumbersTest')
+data.setCell(13, 2, 'com.propine.qa.testcases.TC_FUNC_0007_VerifyAdditionOfNegativeAndZeroIntegerNumbersTest')
+data.setCell(13, 3, 3243);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'TC_FUNC_0002_verifyAdditionOfTwoNegativeIntegerNumbersTest')
+data.setCell(14, 2, 'com.propine.qa.testcases.TC_FUNC_0002_VerifyAdditionOfTwoNegativeIntegerNumbersTest')
+data.setCell(14, 3, 3242);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'TC_FUNC_0017_verifyAdditionOfNegativeIntAndNegativeFloatNumbersTest')
+data.setCell(15, 2, 'com.propine.qa.testcases.TC_FUNC_0017_VerifyAdditionOfNegativeIntAndNegativeFloatNumbersTest')
+data.setCell(15, 3, 3241);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'TC_FUNC_0015_verifyAdditionOfNegativeIntAndPositiveFloatNumbersTest')
+data.setCell(16, 2, 'com.propine.qa.testcases.TC_FUNC_0015_VerifyAdditionOfNegativeIntAndPositiveFloatNumbersTest')
+data.setCell(16, 3, 3239);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'TC_FUNC_0014_verifyAdditionOfPositiveFloatAndPositiveIntNumbersTest')
+data.setCell(17, 2, 'com.propine.qa.testcases.TC_FUNC_0014_VerifyAdditionOfPositiveFloatAndPositiveIntNumbersTest')
+data.setCell(17, 3, 3229);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'TC_FUNC_0008_verifyAdditionOfTwoZeroIntegerNumbersTest')
+data.setCell(18, 2, 'com.propine.qa.testcases.TC_FUNC_0008_VerifyAdditionOfTwoZeroIntegerNumbersTest')
+data.setCell(18, 3, 3224);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'TC_FUNC_0005_verifyAdditionOfNegativeAndPositiveIntegerNumbersTest')
+data.setCell(19, 2, 'com.propine.qa.testcases.TC_FUNC_0005_VerifyAdditionOfNegativeAndPositiveIntegerNumbersTest')
+data.setCell(19, 3, 3213);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'TC_FIELD_0004_verifySecondNumberForNonNumericValuesTest')
+data.setCell(20, 2, 'com.propine.qa.testcases.TC_FIELD_0004_VerifySecondNumberForNonNumericValuesTest')
+data.setCell(20, 3, 3211);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'TC_FUNC_0019_verifyAdditionOfTwoPositiveFloatNumbersWithDiffDecimalsTest')
+data.setCell(21, 2, 'com.propine.qa.testcases.TC_FUNC_0019_VerifyAdditionOfTwoPositiveFloatNumbersWithDiffDecimalsTest')
+data.setCell(21, 3, 3185);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'TC_FUNC_0018_verifyAdditionOfNegativeFloatAndNegativeIntNumbersTest')
+data.setCell(22, 2, 'com.propine.qa.testcases.TC_FUNC_0018_VerifyAdditionOfNegativeFloatAndNegativeIntNumbersTest')
+data.setCell(22, 3, 3160);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'TC_FUNC_0029_verifyErrorMessageForAlphaNumericValueForFirstNumberAndSecondNumberTest')
+data.setCell(23, 2, 'com.propine.qa.testcases.TC_FUNC_0029_VerifyErrorMessageForAlphaNumericValueForFirstNumberAndSecondNumberTest')
+data.setCell(23, 3, 3159);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'TC_FUNC_0027_verifyErrorMessageForAlphaNumericValueForFirstNumberTest')
+data.setCell(24, 2, 'com.propine.qa.testcases.TC_FUNC_0027_VerifyErrorMessageForAlphaNumericValueForFirstNumberTest')
+data.setCell(24, 3, 3156);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'TC_FUNC_0024_verifyErrorMessageForNonNumericValueForFirstNumberTest')
+data.setCell(25, 2, 'com.propine.qa.testcases.TC_FUNC_0024_VerifyErrorMessageForNonNumericValueForFirstNumberTest')
+data.setCell(25, 3, 3156);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'TC_FUNC_0025_verifyErrorMessageForNonNumericValueForSecondNumberTest')
+data.setCell(26, 2, 'com.propine.qa.testcases.TC_FUNC_0025_VerifyErrorMessageForNonNumericValueForSecondNumberTest')
+data.setCell(26, 3, 3156);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'TC_FUNC_0016_verifyAdditionOfNegativeFloatAndPositiveIntNumbersTest')
+data.setCell(27, 2, 'com.propine.qa.testcases.TC_FUNC_0016_VerifyAdditionOfNegativeFloatAndPositiveIntNumbersTest')
+data.setCell(27, 3, 3109);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'TC_FUNC_0028_verifyErrorMessageForAlphaNumericValueForSecondNumberTest')
+data.setCell(28, 2, 'com.propine.qa.testcases.TC_FUNC_0028_VerifyErrorMessageForAlphaNumericValueForSecondNumberTest')
+data.setCell(28, 3, 3106);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'TC_FUNC_0030_verifyErrorMessageForNumericValueWithSpaceForFirstNumberTest')
+data.setCell(29, 2, 'com.propine.qa.testcases.TC_FUNC_0030_VerifyErrorMessageForNumericValueWithSpaceForFirstNumberTest')
+data.setCell(29, 3, 3082);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'TC_FUNC_0022_verifyErrorMessageForNullValueForSecondNumberTest')
+data.setCell(30, 2, 'com.propine.qa.testcases.TC_FUNC_0022_VerifyErrorMessageForNullValueForSecondNumberTest')
+data.setCell(30, 3, 3069);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'TC_FUNC_0023_verifyErrorMessageForNullValueForSecondNumberTest')
+data.setCell(31, 2, 'com.propine.qa.testcases.TC_FUNC_0023_VerifyErrorMessageForNullValuesForFirstNumberAndSecondNumberTest')
+data.setCell(31, 3, 2916);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'TC_FUNC_0021_verifyErrorMessageForNullValueForFirstNumberTest')
+data.setCell(32, 2, 'com.propine.qa.testcases.TC_FUNC_0021_VerifyErrorMessageForNullValueForFirstNumberTest')
+data.setCell(32, 3, 2880);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'TC_FIELD_0003_verifyFirstNumberForNonNumericValuesTest')
+data.setCell(33, 2, 'com.propine.qa.testcases.TC_FIELD_0003_VerifyFirstNumberForNonNumericValuesTest')
+data.setCell(33, 3, 262);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'TC_FIELD_0001_verifyFirstNumberForNumericValuesTest')
+data.setCell(34, 2, 'com.propine.qa.testcases.TC_FIELD_0001_VerifyFirstNumberForNumericValuesTest')
+data.setCell(34, 3, 238);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'TC_FIELD_0002_verifySecondNumberForNumericValuesTest')
+data.setCell(35, 2, 'com.propine.qa.testcases.TC_FIELD_0002_VerifySecondNumberForNumericValuesTest')
+data.setCell(35, 3, 215);
+window.suiteTableData['PROPINE_Sample_Automation_Test_Suite']= { tableData: data, tableDiv: 'times-div-PROPINE_Sample_Automation_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-PROPINE_Sample_Automation_Test_Suite">
+              </div> <!-- times-div-PROPINE_Sample_Automation_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-PROPINE_Sample_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for PROPINE Sample Automation Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-PROPINE_Sample_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-PROPINE_Sample_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.propine.qa.testcases.TC_FIELD_0001_VerifyFirstNumberForNumericValuesTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_FIELD_0001_verifyFirstNumberForNumericValuesTest(10.0)</span>
+                <span class="method-start">17524 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17765 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.propine.qa.testcases.TC_FIELD_0002_VerifySecondNumberForNumericValuesTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">18651 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_FIELD_0002_verifySecondNumberForNumericValuesTest(20.0)</span>
+                <span class="method-start">24562 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">24777 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.propine.qa.testcases.TC_FIELD_0003_VerifyFirstNumberForNonNumericValuesTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">25674 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_FIELD_0003_verifyFirstNumberForNonNumericValuesTest(ab$&)</span>
+                <span class="method-start">31535 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">31805 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.propine.qa.testcases.TC_FIELD_0004_VerifySecondNumberForNonNumericValuesTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">32675 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_FIELD_0004_verifySecondNumberForNonNumericValuesTest(ab$&)</span>
+                <span class="method-start">38553 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">41764 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.propine.qa.testcases.TC_FUNC_0001_VerifyAdditionOfTwoPositiveIntegerNumbersTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">42667 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_FUNC_0001_verifyAdditionOfTwoPositiveIntegerNumbersTest(10.0, 20.0, 30.0)</span>
+                <span class="method-start">48524 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">51869 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.propine.qa.testcases.TC_FUNC_0002_VerifyAdditionOfTwoNegativeIntegerNumbersTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">52750 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_FUNC_0002_verifyAdditionOfTwoNegativeIntegerNumbersTest(-10.0, -20.0, -30.0)</span>
+                <span class="method-start">58599 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">61841 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.propine.qa.testcases.TC_FUNC_0003_VerifyAdditionOfTwoZeroNumbersTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">62718 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_FUNC_0003_verifyAdditionOfTwoZeroNumbersTest(0, 0, 0)</span>
+                <span class="method-start">68609 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">72013 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.propine.qa.testcases.TC_FUNC_0004_VerifyAdditionOfPositiveAndNegativeIntegerNumbersTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">73000 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_FUNC_0004_verifyAdditionOfPositiveAndNegativeIntegerNumbersTest(10.0, -20, -10)</span>
+                <span class="method-start">78818 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">82082 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.propine.qa.testcases.TC_FUNC_0005_VerifyAdditionOfNegativeAndPositiveIntegerNumbersTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">83252 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_FUNC_0005_verifyAdditionOfNegativeAndPositiveIntegerNumbersTest(-20, 10, -10)</span>
+                <span class="method-start">88992 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">92205 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.propine.qa.testcases.TC_FUNC_0006_VerifyAdditionOfPositiveAndZeroIntegerNumbersTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">93063 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_FUNC_0006_verifyAdditionOfPositiveAndZeroIntegerNumbersTest(10.0, 0, 10)</span>
+                <span class="method-start">98973 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">102367 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.propine.qa.testcases.TC_FUNC_0007_VerifyAdditionOfNegativeAndZeroIntegerNumbersTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">103271 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_FUNC_0007_verifyAdditionOfNegativeAndZeroIntegerNumbersTest(-20, 0, -20)</span>
+                <span class="method-start">108993 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">112236 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.propine.qa.testcases.TC_FUNC_0008_VerifyAdditionOfTwoZeroIntegerNumbersTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">113533 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_FUNC_0008_verifyAdditionOfTwoZeroIntegerNumbersTest(0, 0, 0)</span>
+                <span class="method-start">119497 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">122729 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.propine.qa.testcases.TC_FUNC_0009_VerifyAdditionOfTwoPositiveFloatNumbersTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">123561 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_FUNC_0009_verifyAdditionOfTwoPositiveFloatNumbersTest(10.04, 10.02, 20.06)</span>
+                <span class="method-start">129281 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">132663 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.propine.qa.testcases.TC_FUNC_0010_VerifyAdditionOfTwoNegativeFloatNumbersTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">133503 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_FUNC_0010_verifyAdditionOfTwoNegativeFloatNumbersTest(-10.04, -10.02, -20.06)</span>
+                <span class="method-start">138769 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">142430 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.propine.qa.testcases.TC_FUNC_0011_VerifyAdditionOfPositiveAndNegativeFloatNumbersTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">143298 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_FUNC_0011_verifyAdditionOfPositiveAndNegativeFloatNumbersTest(10.04, -10.02, 0.02)</span>
+                <span class="method-start">148561 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">151829 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.propine.qa.testcases.TC_FUNC_0012_VerifyAdditionOfNegativeAndPositiveFloatNumbersTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">152702 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_FUNC_0012_verifyAdditionOfNegativeAndPositiveFloatNumbersTest(-10.04, 10.02, -0.02)</span>
+                <span class="method-start">157937 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">161218 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.propine.qa.testcases.TC_FUNC_0013_VerifyAdditionOfPositiveIntAndPositiveFloatNumbersTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">162077 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_FUNC_0013_verifyAdditionOfPositiveIntAndPositiveFloatNumbersTest(10, 10.02, 20.02)</span>
+                <span class="method-start">167413 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">170667 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.propine.qa.testcases.TC_FUNC_0014_VerifyAdditionOfPositiveFloatAndPositiveIntNumbersTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">171534 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_FUNC_0014_verifyAdditionOfPositiveFloatAndPositiveIntNumbersTest(10.02, 10, 20.02)</span>
+                <span class="method-start">176731 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">179960 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.propine.qa.testcases.TC_FUNC_0015_VerifyAdditionOfNegativeIntAndPositiveFloatNumbersTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">180833 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_FUNC_0015_verifyAdditionOfNegativeIntAndPositiveFloatNumbersTest(-10, 10.02, 0.02)</span>
+                <span class="method-start">186142 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">189382 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.propine.qa.testcases.TC_FUNC_0016_VerifyAdditionOfNegativeFloatAndPositiveIntNumbersTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">190214 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_FUNC_0016_verifyAdditionOfNegativeFloatAndPositiveIntNumbersTest(-10.015, 10, -0.015)</span>
+                <span class="method-start">195431 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">198540 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.propine.qa.testcases.TC_FUNC_0017_VerifyAdditionOfNegativeIntAndNegativeFloatNumbersTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">199424 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_FUNC_0017_verifyAdditionOfNegativeIntAndNegativeFloatNumbersTest(-10, -10.02, -20.02)</span>
+                <span class="method-start">204743 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">207994 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.propine.qa.testcases.TC_FUNC_0018_VerifyAdditionOfNegativeFloatAndNegativeIntNumbersTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">208834 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_FUNC_0018_verifyAdditionOfNegativeFloatAndNegativeIntNumbersTest(-10.02, -10, -20.02)</span>
+                <span class="method-start">214141 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">217301 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.propine.qa.testcases.TC_FUNC_0019_VerifyAdditionOfTwoPositiveFloatNumbersWithDiffDecimalsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">218140 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_FUNC_0019_verifyAdditionOfTwoPositiveFloatNumbersWithDiffDecimalsTest(2.001, 4.0001, 6.0011)</span>
+                <span class="method-start">223468 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">226653 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.propine.qa.testcases.TC_FUNC_0020_VerifyAdditionOfTwoNegativeFloatNumbersWithDiffDecimalsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">227491 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_FUNC_0020_verifyAdditionOfTwoNegativeFloatNumbersWithDiffDecimalsTest(-12.008, -2.0002, -14.0082)</span>
+                <span class="method-start">232911 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">236223 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.propine.qa.testcases.TC_FUNC_0021_VerifyErrorMessageForNullValueForFirstNumberTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">237126 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_FUNC_0021_verifyErrorMessageForNullValueForFirstNumberTest(10, Enter valid numeric or float value for First Number)</span>
+                <span class="method-start">244328 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">247208 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.propine.qa.testcases.TC_FUNC_0022_VerifyErrorMessageForNullValueForSecondNumberTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">248131 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_FUNC_0022_verifyErrorMessageForNullValueForSecondNumberTest(10, Enter valid numeric or float value for Second Number)</span>
+                <span class="method-start">253311 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">256380 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.propine.qa.testcases.TC_FUNC_0023_VerifyErrorMessageForNullValuesForFirstNumberAndSecondNumberTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">257255 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_FUNC_0023_verifyErrorMessageForNullValueForSecondNumberTest(Enter valid numeric or float value for First Number, Enter valid numeric or float value for Second N...)</span>
+                <span class="method-start">262480 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">265406 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.propine.qa.testcases.TC_FUNC_0024_VerifyErrorMessageForNonNumericValueForFirstNumberTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">266293 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_FUNC_0024_verifyErrorMessageForNonNumericValueForFirstNumberTest(ab#, 10, Enter valid numeric or float value for First Number)</span>
+                <span class="method-start">271647 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">274805 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.propine.qa.testcases.TC_FUNC_0025_VerifyErrorMessageForNonNumericValueForSecondNumberTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">275622 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_FUNC_0025_verifyErrorMessageForNonNumericValueForSecondNumberTest(10, ab#, Enter valid numeric or float value for Second Number)</span>
+                <span class="method-start">280936 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">284092 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.propine.qa.testcases.TC_FUNC_0026_VerifyErrorMessageForNonNumericValueForFirstNumberAndSecondNumberTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">284908 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_FUNC_0026_verifyErrorMessageForNonNumericValueForFirstNumberAndSecondNumberTest(ab#, ab#, Enter valid numeric or float value for First Number, Enter valid numeric or float value fo...)</span>
+                <span class="method-start">290087 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">293378 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.propine.qa.testcases.TC_FUNC_0027_VerifyErrorMessageForAlphaNumericValueForFirstNumberTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">294225 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_FUNC_0027_verifyErrorMessageForAlphaNumericValueForFirstNumberTest(1a, 10, Enter valid numeric or float value for First Number)</span>
+                <span class="method-start">299649 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">302805 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.propine.qa.testcases.TC_FUNC_0028_VerifyErrorMessageForAlphaNumericValueForSecondNumberTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">303650 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_FUNC_0028_verifyErrorMessageForAlphaNumericValueForSecondNumberTest(10, b2, Enter valid numeric or float value for Second Number)</span>
+                <span class="method-start">308837 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">311943 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.propine.qa.testcases.TC_FUNC_0029_VerifyErrorMessageForAlphaNumericValueForFirstNumberAndSecondNumberTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">312827 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_FUNC_0029_verifyErrorMessageForAlphaNumericValueForFirstNumberAndSecondNumberTest(2a, 3b, Enter valid numeric or float value for First Number, Enter valid numeric or float value for ...)</span>
+                <span class="method-start">318056 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">321215 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.propine.qa.testcases.TC_FUNC_0030_VerifyErrorMessageForNumericValueWithSpaceForFirstNumberTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">322099 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_FUNC_0030_verifyErrorMessageForNumericValueWithSpaceForFirstNumberTest(   5  , 10, Enter valid numeric or float value for First Number)</span>
+                <span class="method-start">327442 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">330524 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.propine.qa.testcases.TC_FUNC_0031_VerifyErrorMessageForNumericValueWithSpaceForSecondNumberTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">331421 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_FUNC_0031_verifyErrorMessageForNumericValueWithSpaceForSecondNumberTest(10,     2  , Enter valid numeric or float value for Second Number)</span>
+                <span class="method-start">337060 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">340307 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.propine.qa.testcases.TC_FUNC_0032_VerifyErrorMessageForNumericValueWithSpaceForFirstNumberAndSecondNumberTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">341159 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_FUNC_0032_verifyErrorMessageForNumericValueWithSpaceForFirstNumberAndSecondNumberTest(     5     ,      2   , Enter valid numeric or float value for First Number, Enter valid numeric or ...)</span>
+                <span class="method-start">346555 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">350387 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

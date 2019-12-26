@@ -1,0 +1,1839 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="20" total="36" passed="16">
+  <reporter-output>
+  </reporter-output>
+  <suite name="PROPINE Sample Automation Test Suite" duration-ms="352295" started-at="2019-12-26T10:27:53Z" finished-at="2019-12-26T10:33:45Z">
+    <groups>
+    </groups>
+    <test name="PROPINE Addition Calculator Test Cases" duration-ms="352295" started-at="2019-12-26T10:27:53Z" finished-at="2019-12-26T10:33:45Z">
+      <class name="com.propine.qa.testcases.TC_FUNC_0028_VerifyErrorMessageForAlphaNumericValueForSecondNumberTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0028_VerifyErrorMessageForAlphaNumericValueForSecondNumberTest@5cb9f472]" name="setUp" is-config="true" duration-ms="5187" started-at="2019-12-26T18:32:58Z" finished-at="2019-12-26T18:33:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="TC_FUNC_0028_verifyErrorMessageForAlphaNumericValueForSecondNumberTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0028_VerifyErrorMessageForAlphaNumericValueForSecondNumberTest@5cb9f472]" name="TC_FUNC_0028_verifyErrorMessageForAlphaNumericValueForSecondNumberTest" duration-ms="3106" started-at="2019-12-26T18:33:03Z" data-provider="getTestData" finished-at="2019-12-26T18:33:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[b2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Enter valid numeric or float value for Second Number]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Error Message verification for alpha-numeric value for Second Number - FAILED expected [Enter valid numeric or float value for Second Number] but found [NaN]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Error Message verification for alpha-numeric value for Second Number - FAILED expected [Enter valid numeric or float value for Second Number] but found [NaN]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at com.propine.qa.testcases.TC_FUNC_0028_VerifyErrorMessageForAlphaNumericValueForSecondNumberTest.TC_FUNC_0028_verifyErrorMessageForAlphaNumericValueForSecondNumberTest(TC_FUNC_0028_VerifyErrorMessageForAlphaNumericValueForSecondNumberTest.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_FUNC_0028_verifyErrorMessageForAlphaNumericValueForSecondNumberTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0028_VerifyErrorMessageForAlphaNumericValueForSecondNumberTest@5cb9f472]" name="tearDown" is-config="true" duration-ms="855" started-at="2019-12-26T18:33:06Z" finished-at="2019-12-26T18:33:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0028_VerifyErrorMessageForAlphaNumericValueForSecondNumberTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0032_VerifyErrorMessageForNumericValueWithSpaceForFirstNumberAndSecondNumberTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0032_VerifyErrorMessageForNumericValueWithSpaceForFirstNumberAndSecondNumberTest@4566e5bd]" name="setUp" is-config="true" duration-ms="5396" started-at="2019-12-26T18:33:35Z" finished-at="2019-12-26T18:33:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="TC_FUNC_0032_verifyErrorMessageForNumericValueWithSpaceForFirstNumberAndSecondNumberTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0032_VerifyErrorMessageForNumericValueWithSpaceForFirstNumberAndSecondNumberTest@4566e5bd]" name="TC_FUNC_0032_verifyErrorMessageForNumericValueWithSpaceForFirstNumberAndSecondNumberTest" duration-ms="3832" started-at="2019-12-26T18:33:41Z" data-provider="getTestData" finished-at="2019-12-26T18:33:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[     5     ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[     2   ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Enter valid numeric or float value for First Number]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Enter valid numeric or float value for Second Number]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Error Message verification for numeric value with space for First Number - FAILED expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Error Message verification for numeric value with space for First Number - FAILED expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.propine.qa.testcases.TC_FUNC_0032_VerifyErrorMessageForNumericValueWithSpaceForFirstNumberAndSecondNumberTest.TC_FUNC_0032_verifyErrorMessageForNumericValueWithSpaceForFirstNumberAndSecondNumberTest(TC_FUNC_0032_VerifyErrorMessageForNumericValueWithSpaceForFirstNumberAndSecondNumberTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_FUNC_0032_verifyErrorMessageForNumericValueWithSpaceForFirstNumberAndSecondNumberTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0032_VerifyErrorMessageForNumericValueWithSpaceForFirstNumberAndSecondNumberTest@4566e5bd]" name="tearDown" is-config="true" duration-ms="813" started-at="2019-12-26T18:33:45Z" finished-at="2019-12-26T18:33:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0032_VerifyErrorMessageForNumericValueWithSpaceForFirstNumberAndSecondNumberTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0018_VerifyAdditionOfNegativeFloatAndNegativeIntNumbersTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0018_VerifyAdditionOfNegativeFloatAndNegativeIntNumbersTest@31a5c39e]" name="setUp" is-config="true" duration-ms="5307" started-at="2019-12-26T18:31:23Z" finished-at="2019-12-26T18:31:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TC_FUNC_0018_verifyAdditionOfNegativeFloatAndNegativeIntNumbersTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0018_VerifyAdditionOfNegativeFloatAndNegativeIntNumbersTest@31a5c39e]" name="TC_FUNC_0018_verifyAdditionOfNegativeFloatAndNegativeIntNumbersTest" duration-ms="3160" started-at="2019-12-26T18:31:28Z" data-provider="getTestData" finished-at="2019-12-26T18:31:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-10.02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-20.02]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_FUNC_0018_verifyAdditionOfNegativeFloatAndNegativeIntNumbersTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0018_VerifyAdditionOfNegativeFloatAndNegativeIntNumbersTest@31a5c39e]" name="tearDown" is-config="true" duration-ms="800" started-at="2019-12-26T18:31:32Z" finished-at="2019-12-26T18:31:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0018_VerifyAdditionOfNegativeFloatAndNegativeIntNumbersTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0019_VerifyAdditionOfTwoPositiveFloatNumbersWithDiffDecimalsTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0019_VerifyAdditionOfTwoPositiveFloatNumbersWithDiffDecimalsTest@3f49dace]" name="setUp" is-config="true" duration-ms="5328" started-at="2019-12-26T18:31:32Z" finished-at="2019-12-26T18:31:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="TC_FUNC_0019_verifyAdditionOfTwoPositiveFloatNumbersWithDiffDecimalsTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0019_VerifyAdditionOfTwoPositiveFloatNumbersWithDiffDecimalsTest@3f49dace]" name="TC_FUNC_0019_verifyAdditionOfTwoPositiveFloatNumbersWithDiffDecimalsTest" duration-ms="3185" started-at="2019-12-26T18:31:38Z" data-provider="getTestData" finished-at="2019-12-26T18:31:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4.0001]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6.0011]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Addition of two positive float numbers with different decimals - FAILED expected [6.0011] but found [6.001099999999999]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Addition of two positive float numbers with different decimals - FAILED expected [6.0011] but found [6.001099999999999]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at com.propine.qa.testcases.TC_FUNC_0019_VerifyAdditionOfTwoPositiveFloatNumbersWithDiffDecimalsTest.TC_FUNC_0019_verifyAdditionOfTwoPositiveFloatNumbersWithDiffDecimalsTest(TC_FUNC_0019_VerifyAdditionOfTwoPositiveFloatNumbersWithDiffDecimalsTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_FUNC_0019_verifyAdditionOfTwoPositiveFloatNumbersWithDiffDecimalsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0019_VerifyAdditionOfTwoPositiveFloatNumbersWithDiffDecimalsTest@3f49dace]" name="tearDown" is-config="true" duration-ms="791" started-at="2019-12-26T18:31:41Z" finished-at="2019-12-26T18:31:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0019_VerifyAdditionOfTwoPositiveFloatNumbersWithDiffDecimalsTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0021_VerifyErrorMessageForNullValueForFirstNumberTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0021_VerifyErrorMessageForNullValueForFirstNumberTest@490ab905]" name="setUp" is-config="true" duration-ms="7202" started-at="2019-12-26T18:31:51Z" finished-at="2019-12-26T18:31:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="TC_FUNC_0021_verifyErrorMessageForNullValueForFirstNumberTest(java.lang.String, java.lang.String)[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0021_VerifyErrorMessageForNullValueForFirstNumberTest@490ab905]" name="TC_FUNC_0021_verifyErrorMessageForNullValueForFirstNumberTest" duration-ms="2880" started-at="2019-12-26T18:31:59Z" data-provider="getTestData" finished-at="2019-12-26T18:32:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Enter valid numeric or float value for First Number]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Error Message verification for null value for First Number - FAILED expected [Enter valid numeric or float value for First Number] but found [NaN]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Error Message verification for null value for First Number - FAILED expected [Enter valid numeric or float value for First Number] but found [NaN]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at com.propine.qa.testcases.TC_FUNC_0021_VerifyErrorMessageForNullValueForFirstNumberTest.TC_FUNC_0021_verifyErrorMessageForNullValueForFirstNumberTest(TC_FUNC_0021_VerifyErrorMessageForNullValueForFirstNumberTest.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_FUNC_0021_verifyErrorMessageForNullValueForFirstNumberTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0021_VerifyErrorMessageForNullValueForFirstNumberTest@490ab905]" name="tearDown" is-config="true" duration-ms="883" started-at="2019-12-26T18:32:01Z" finished-at="2019-12-26T18:32:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0021_VerifyErrorMessageForNullValueForFirstNumberTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0010_VerifyAdditionOfTwoNegativeFloatNumbersTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0010_VerifyAdditionOfTwoNegativeFloatNumbersTest@73ad2d6]" name="setUp" is-config="true" duration-ms="5266" started-at="2019-12-26T18:30:08Z" finished-at="2019-12-26T18:30:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TC_FUNC_0010_verifyAdditionOfTwoNegativeFloatNumbersTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0010_VerifyAdditionOfTwoNegativeFloatNumbersTest@73ad2d6]" name="TC_FUNC_0010_verifyAdditionOfTwoNegativeFloatNumbersTest" duration-ms="3661" started-at="2019-12-26T18:30:13Z" data-provider="getTestData" finished-at="2019-12-26T18:30:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-10.04]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-10.02]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-20.06]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_FUNC_0010_verifyAdditionOfTwoNegativeFloatNumbersTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0010_VerifyAdditionOfTwoNegativeFloatNumbersTest@73ad2d6]" name="tearDown" is-config="true" duration-ms="811" started-at="2019-12-26T18:30:17Z" finished-at="2019-12-26T18:30:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0010_VerifyAdditionOfTwoNegativeFloatNumbersTest -->
+      <class name="com.propine.qa.testcases.TC_FIELD_0004_VerifySecondNumberForNonNumericValuesTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.propine.qa.testcases.TC_FIELD_0004_VerifySecondNumberForNonNumericValuesTest@4f7d0008]" name="setUp" is-config="true" duration-ms="5878" started-at="2019-12-26T18:28:27Z" finished-at="2019-12-26T18:28:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="TC_FIELD_0004_verifySecondNumberForNonNumericValuesTest(java.lang.String)[pri:0, instance:com.propine.qa.testcases.TC_FIELD_0004_VerifySecondNumberForNonNumericValuesTest@4f7d0008]" name="TC_FIELD_0004_verifySecondNumberForNonNumericValuesTest" duration-ms="3211" started-at="2019-12-26T18:28:33Z" data-provider="getTestData" finished-at="2019-12-26T18:28:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ab$&]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Field verification for Non-Numeric Values - FAILED]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Field verification for Non-Numeric Values - FAILED
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotEquals(Assert.java:856)
+	at com.propine.qa.testcases.TC_FIELD_0004_VerifySecondNumberForNonNumericValuesTest.TC_FIELD_0004_verifySecondNumberForNonNumericValuesTest(TC_FIELD_0004_VerifySecondNumberForNonNumericValuesTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_FIELD_0004_verifySecondNumberForNonNumericValuesTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.propine.qa.testcases.TC_FIELD_0004_VerifySecondNumberForNonNumericValuesTest@4f7d0008]" name="tearDown" is-config="true" duration-ms="803" started-at="2019-12-26T18:28:36Z" finished-at="2019-12-26T18:28:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.propine.qa.testcases.TC_FIELD_0004_VerifySecondNumberForNonNumericValuesTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0011_VerifyAdditionOfPositiveAndNegativeFloatNumbersTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0011_VerifyAdditionOfPositiveAndNegativeFloatNumbersTest@7085bdee]" name="setUp" is-config="true" duration-ms="5263" started-at="2019-12-26T18:30:17Z" finished-at="2019-12-26T18:30:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="TC_FUNC_0011_verifyAdditionOfPositiveAndNegativeFloatNumbersTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0011_VerifyAdditionOfPositiveAndNegativeFloatNumbersTest@7085bdee]" name="TC_FUNC_0011_verifyAdditionOfPositiveAndNegativeFloatNumbersTest" duration-ms="3268" started-at="2019-12-26T18:30:23Z" data-provider="getTestData" finished-at="2019-12-26T18:30:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10.04]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-10.02]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.02]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Addition of positive and negative float numbers - FAILED expected [0.02] but found [0.019999999999999574]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Addition of positive and negative float numbers - FAILED expected [0.02] but found [0.019999999999999574]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at com.propine.qa.testcases.TC_FUNC_0011_VerifyAdditionOfPositiveAndNegativeFloatNumbersTest.TC_FUNC_0011_verifyAdditionOfPositiveAndNegativeFloatNumbersTest(TC_FUNC_0011_VerifyAdditionOfPositiveAndNegativeFloatNumbersTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_FUNC_0011_verifyAdditionOfPositiveAndNegativeFloatNumbersTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0011_VerifyAdditionOfPositiveAndNegativeFloatNumbersTest@7085bdee]" name="tearDown" is-config="true" duration-ms="823" started-at="2019-12-26T18:30:26Z" finished-at="2019-12-26T18:30:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0011_VerifyAdditionOfPositiveAndNegativeFloatNumbersTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0008_VerifyAdditionOfTwoZeroIntegerNumbersTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0008_VerifyAdditionOfTwoZeroIntegerNumbersTest@2f686d1f]" name="setUp" is-config="true" duration-ms="5964" started-at="2019-12-26T18:29:48Z" finished-at="2019-12-26T18:29:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TC_FUNC_0008_verifyAdditionOfTwoZeroIntegerNumbersTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0008_VerifyAdditionOfTwoZeroIntegerNumbersTest@2f686d1f]" name="TC_FUNC_0008_verifyAdditionOfTwoZeroIntegerNumbersTest" duration-ms="3224" started-at="2019-12-26T18:29:54Z" data-provider="getTestData" finished-at="2019-12-26T18:29:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_FUNC_0008_verifyAdditionOfTwoZeroIntegerNumbersTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0008_VerifyAdditionOfTwoZeroIntegerNumbersTest@2f686d1f]" name="tearDown" is-config="true" duration-ms="783" started-at="2019-12-26T18:29:57Z" finished-at="2019-12-26T18:29:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0008_VerifyAdditionOfTwoZeroIntegerNumbersTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0014_VerifyAdditionOfPositiveFloatAndPositiveIntNumbersTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0014_VerifyAdditionOfPositiveFloatAndPositiveIntNumbersTest@6fd02e5]" name="setUp" is-config="true" duration-ms="5197" started-at="2019-12-26T18:30:46Z" finished-at="2019-12-26T18:30:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TC_FUNC_0014_verifyAdditionOfPositiveFloatAndPositiveIntNumbersTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0014_VerifyAdditionOfPositiveFloatAndPositiveIntNumbersTest@6fd02e5]" name="TC_FUNC_0014_verifyAdditionOfPositiveFloatAndPositiveIntNumbersTest" duration-ms="3229" started-at="2019-12-26T18:30:51Z" data-provider="getTestData" finished-at="2019-12-26T18:30:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10.02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20.02]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_FUNC_0014_verifyAdditionOfPositiveFloatAndPositiveIntNumbersTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0014_VerifyAdditionOfPositiveFloatAndPositiveIntNumbersTest@6fd02e5]" name="tearDown" is-config="true" duration-ms="841" started-at="2019-12-26T18:30:54Z" finished-at="2019-12-26T18:30:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0014_VerifyAdditionOfPositiveFloatAndPositiveIntNumbersTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0001_VerifyAdditionOfTwoPositiveIntegerNumbersTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0001_VerifyAdditionOfTwoPositiveIntegerNumbersTest@271053e1]" name="setUp" is-config="true" duration-ms="5856" started-at="2019-12-26T18:28:37Z" finished-at="2019-12-26T18:28:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TC_FUNC_0001_verifyAdditionOfTwoPositiveIntegerNumbersTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0001_VerifyAdditionOfTwoPositiveIntegerNumbersTest@271053e1]" name="TC_FUNC_0001_verifyAdditionOfTwoPositiveIntegerNumbersTest" duration-ms="3345" started-at="2019-12-26T18:28:43Z" data-provider="getTestData" finished-at="2019-12-26T18:28:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[30.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_FUNC_0001_verifyAdditionOfTwoPositiveIntegerNumbersTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0001_VerifyAdditionOfTwoPositiveIntegerNumbersTest@271053e1]" name="tearDown" is-config="true" duration-ms="802" started-at="2019-12-26T18:28:46Z" finished-at="2019-12-26T18:28:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0001_VerifyAdditionOfTwoPositiveIntegerNumbersTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0013_VerifyAdditionOfPositiveIntAndPositiveFloatNumbersTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0013_VerifyAdditionOfPositiveIntAndPositiveFloatNumbersTest@5700d6b1]" name="setUp" is-config="true" duration-ms="5336" started-at="2019-12-26T18:30:36Z" finished-at="2019-12-26T18:30:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TC_FUNC_0013_verifyAdditionOfPositiveIntAndPositiveFloatNumbersTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0013_VerifyAdditionOfPositiveIntAndPositiveFloatNumbersTest@5700d6b1]" name="TC_FUNC_0013_verifyAdditionOfPositiveIntAndPositiveFloatNumbersTest" duration-ms="3254" started-at="2019-12-26T18:30:42Z" data-provider="getTestData" finished-at="2019-12-26T18:30:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10.02]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20.02]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_FUNC_0013_verifyAdditionOfPositiveIntAndPositiveFloatNumbersTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0013_VerifyAdditionOfPositiveIntAndPositiveFloatNumbersTest@5700d6b1]" name="tearDown" is-config="true" duration-ms="827" started-at="2019-12-26T18:30:45Z" finished-at="2019-12-26T18:30:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0013_VerifyAdditionOfPositiveIntAndPositiveFloatNumbersTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0004_VerifyAdditionOfPositiveAndNegativeIntegerNumbersTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0004_VerifyAdditionOfPositiveAndNegativeIntegerNumbersTest@6500df86]" name="setUp" is-config="true" duration-ms="5818" started-at="2019-12-26T18:29:07Z" finished-at="2019-12-26T18:29:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TC_FUNC_0004_verifyAdditionOfPositiveAndNegativeIntegerNumbersTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0004_VerifyAdditionOfPositiveAndNegativeIntegerNumbersTest@6500df86]" name="TC_FUNC_0004_verifyAdditionOfPositiveAndNegativeIntegerNumbersTest" duration-ms="3264" started-at="2019-12-26T18:29:13Z" data-provider="getTestData" finished-at="2019-12-26T18:29:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-20]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_FUNC_0004_verifyAdditionOfPositiveAndNegativeIntegerNumbersTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0004_VerifyAdditionOfPositiveAndNegativeIntegerNumbersTest@6500df86]" name="tearDown" is-config="true" duration-ms="1111" started-at="2019-12-26T18:29:16Z" finished-at="2019-12-26T18:29:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0004_VerifyAdditionOfPositiveAndNegativeIntegerNumbersTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0031_VerifyErrorMessageForNumericValueWithSpaceForSecondNumberTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0031_VerifyErrorMessageForNumericValueWithSpaceForSecondNumberTest@56ef9176]" name="setUp" is-config="true" duration-ms="5639" started-at="2019-12-26T18:33:26Z" finished-at="2019-12-26T18:33:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="TC_FUNC_0031_verifyErrorMessageForNumericValueWithSpaceForSecondNumberTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0031_VerifyErrorMessageForNumericValueWithSpaceForSecondNumberTest@56ef9176]" name="TC_FUNC_0031_verifyErrorMessageForNumericValueWithSpaceForSecondNumberTest" duration-ms="3247" started-at="2019-12-26T18:33:31Z" data-provider="getTestData" finished-at="2019-12-26T18:33:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[    2  ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Enter valid numeric or float value for Second Number]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Error Message verification for numeric value with space for Second Number - FAILED expected [Enter valid numeric or float value for Second Number] but found [12]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Error Message verification for numeric value with space for Second Number - FAILED expected [Enter valid numeric or float value for Second Number] but found [12]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at com.propine.qa.testcases.TC_FUNC_0031_VerifyErrorMessageForNumericValueWithSpaceForSecondNumberTest.TC_FUNC_0031_verifyErrorMessageForNumericValueWithSpaceForSecondNumberTest(TC_FUNC_0031_VerifyErrorMessageForNumericValueWithSpaceForSecondNumberTest.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_FUNC_0031_verifyErrorMessageForNumericValueWithSpaceForSecondNumberTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0031_VerifyErrorMessageForNumericValueWithSpaceForSecondNumberTest@56ef9176]" name="tearDown" is-config="true" duration-ms="807" started-at="2019-12-26T18:33:35Z" finished-at="2019-12-26T18:33:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0031_VerifyErrorMessageForNumericValueWithSpaceForSecondNumberTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0016_VerifyAdditionOfNegativeFloatAndPositiveIntNumbersTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0016_VerifyAdditionOfNegativeFloatAndPositiveIntNumbersTest@e45f292]" name="setUp" is-config="true" duration-ms="5217" started-at="2019-12-26T18:31:04Z" finished-at="2019-12-26T18:31:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="TC_FUNC_0016_verifyAdditionOfNegativeFloatAndPositiveIntNumbersTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0016_VerifyAdditionOfNegativeFloatAndPositiveIntNumbersTest@e45f292]" name="TC_FUNC_0016_verifyAdditionOfNegativeFloatAndPositiveIntNumbersTest" duration-ms="3109" started-at="2019-12-26T18:31:10Z" data-provider="getTestData" finished-at="2019-12-26T18:31:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-10.015]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-0.015]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Addition of negative float and positive integer numbers - FAILED expected [-0.015] but found [-0.015000000000000568]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Addition of negative float and positive integer numbers - FAILED expected [-0.015] but found [-0.015000000000000568]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at com.propine.qa.testcases.TC_FUNC_0016_VerifyAdditionOfNegativeFloatAndPositiveIntNumbersTest.TC_FUNC_0016_verifyAdditionOfNegativeFloatAndPositiveIntNumbersTest(TC_FUNC_0016_VerifyAdditionOfNegativeFloatAndPositiveIntNumbersTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_FUNC_0016_verifyAdditionOfNegativeFloatAndPositiveIntNumbersTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0016_VerifyAdditionOfNegativeFloatAndPositiveIntNumbersTest@e45f292]" name="tearDown" is-config="true" duration-ms="844" started-at="2019-12-26T18:31:13Z" finished-at="2019-12-26T18:31:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0016_VerifyAdditionOfNegativeFloatAndPositiveIntNumbersTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0029_VerifyErrorMessageForAlphaNumericValueForFirstNumberAndSecondNumberTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0029_VerifyErrorMessageForAlphaNumericValueForFirstNumberAndSecondNumberTest@cb644e]" name="setUp" is-config="true" duration-ms="5229" started-at="2019-12-26T18:33:07Z" finished-at="2019-12-26T18:33:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="TC_FUNC_0029_verifyErrorMessageForAlphaNumericValueForFirstNumberAndSecondNumberTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0029_VerifyErrorMessageForAlphaNumericValueForFirstNumberAndSecondNumberTest@cb644e]" name="TC_FUNC_0029_verifyErrorMessageForAlphaNumericValueForFirstNumberAndSecondNumberTest" duration-ms="3159" started-at="2019-12-26T18:33:12Z" data-provider="getTestData" finished-at="2019-12-26T18:33:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3b]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Enter valid numeric or float value for First Number]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Enter valid numeric or float value for Second Number]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Error Message verification for alpha-numeric value for First Number - FAILED expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Error Message verification for alpha-numeric value for First Number - FAILED expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.propine.qa.testcases.TC_FUNC_0029_VerifyErrorMessageForAlphaNumericValueForFirstNumberAndSecondNumberTest.TC_FUNC_0029_verifyErrorMessageForAlphaNumericValueForFirstNumberAndSecondNumberTest(TC_FUNC_0029_VerifyErrorMessageForAlphaNumericValueForFirstNumberAndSecondNumberTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_FUNC_0029_verifyErrorMessageForAlphaNumericValueForFirstNumberAndSecondNumberTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0029_VerifyErrorMessageForAlphaNumericValueForFirstNumberAndSecondNumberTest@cb644e]" name="tearDown" is-config="true" duration-ms="855" started-at="2019-12-26T18:33:15Z" finished-at="2019-12-26T18:33:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0029_VerifyErrorMessageForAlphaNumericValueForFirstNumberAndSecondNumberTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0023_VerifyErrorMessageForNullValuesForFirstNumberAndSecondNumberTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0023_VerifyErrorMessageForNullValuesForFirstNumberAndSecondNumberTest@27c20538]" name="setUp" is-config="true" duration-ms="5225" started-at="2019-12-26T18:32:11Z" finished-at="2019-12-26T18:32:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="TC_FUNC_0023_verifyErrorMessageForNullValueForSecondNumberTest(java.lang.String, java.lang.String)[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0023_VerifyErrorMessageForNullValuesForFirstNumberAndSecondNumberTest@27c20538]" name="TC_FUNC_0023_verifyErrorMessageForNullValueForSecondNumberTest" duration-ms="2916" started-at="2019-12-26T18:32:17Z" data-provider="getTestData" finished-at="2019-12-26T18:32:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Enter valid numeric or float value for First Number]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Enter valid numeric or float value for Second Number]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Error Message verification for null value for First Number - FAILED expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Error Message verification for null value for First Number - FAILED expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.propine.qa.testcases.TC_FUNC_0023_VerifyErrorMessageForNullValuesForFirstNumberAndSecondNumberTest.TC_FUNC_0023_verifyErrorMessageForNullValueForSecondNumberTest(TC_FUNC_0023_VerifyErrorMessageForNullValuesForFirstNumberAndSecondNumberTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_FUNC_0023_verifyErrorMessageForNullValueForSecondNumberTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0023_VerifyErrorMessageForNullValuesForFirstNumberAndSecondNumberTest@27c20538]" name="tearDown" is-config="true" duration-ms="847" started-at="2019-12-26T18:32:20Z" finished-at="2019-12-26T18:32:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0023_VerifyErrorMessageForNullValuesForFirstNumberAndSecondNumberTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0020_VerifyAdditionOfTwoNegativeFloatNumbersWithDiffDecimalsTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0020_VerifyAdditionOfTwoNegativeFloatNumbersWithDiffDecimalsTest@1e397ed7]" name="setUp" is-config="true" duration-ms="5419" started-at="2019-12-26T18:31:42Z" finished-at="2019-12-26T18:31:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="TC_FUNC_0020_verifyAdditionOfTwoNegativeFloatNumbersWithDiffDecimalsTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0020_VerifyAdditionOfTwoNegativeFloatNumbersWithDiffDecimalsTest@1e397ed7]" name="TC_FUNC_0020_verifyAdditionOfTwoNegativeFloatNumbersWithDiffDecimalsTest" duration-ms="3309" started-at="2019-12-26T18:31:47Z" data-provider="getTestData" finished-at="2019-12-26T18:31:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-12.008]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-2.0002]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-14.0082]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Addition of two positive float numbers with different decimals - FAILED expected [-14.0082] but found [-14.008199999999999]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Addition of two positive float numbers with different decimals - FAILED expected [-14.0082] but found [-14.008199999999999]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at com.propine.qa.testcases.TC_FUNC_0020_VerifyAdditionOfTwoNegativeFloatNumbersWithDiffDecimalsTest.TC_FUNC_0020_verifyAdditionOfTwoNegativeFloatNumbersWithDiffDecimalsTest(TC_FUNC_0020_VerifyAdditionOfTwoNegativeFloatNumbersWithDiffDecimalsTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_FUNC_0020_verifyAdditionOfTwoNegativeFloatNumbersWithDiffDecimalsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0020_VerifyAdditionOfTwoNegativeFloatNumbersWithDiffDecimalsTest@1e397ed7]" name="tearDown" is-config="true" duration-ms="869" started-at="2019-12-26T18:31:50Z" finished-at="2019-12-26T18:31:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0020_VerifyAdditionOfTwoNegativeFloatNumbersWithDiffDecimalsTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0002_VerifyAdditionOfTwoNegativeIntegerNumbersTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0002_VerifyAdditionOfTwoNegativeIntegerNumbersTest@589838eb]" name="setUp" is-config="true" duration-ms="5849" started-at="2019-12-26T18:28:47Z" finished-at="2019-12-26T18:28:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TC_FUNC_0002_verifyAdditionOfTwoNegativeIntegerNumbersTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0002_VerifyAdditionOfTwoNegativeIntegerNumbersTest@589838eb]" name="TC_FUNC_0002_verifyAdditionOfTwoNegativeIntegerNumbersTest" duration-ms="3242" started-at="2019-12-26T18:28:53Z" data-provider="getTestData" finished-at="2019-12-26T18:28:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-10.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-20.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-30.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_FUNC_0002_verifyAdditionOfTwoNegativeIntegerNumbersTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0002_VerifyAdditionOfTwoNegativeIntegerNumbersTest@589838eb]" name="tearDown" is-config="true" duration-ms="811" started-at="2019-12-26T18:28:56Z" finished-at="2019-12-26T18:28:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0002_VerifyAdditionOfTwoNegativeIntegerNumbersTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0024_VerifyErrorMessageForNonNumericValueForFirstNumberTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0024_VerifyErrorMessageForNonNumericValueForFirstNumberTest@72d818d1]" name="setUp" is-config="true" duration-ms="5354" started-at="2019-12-26T18:32:20Z" finished-at="2019-12-26T18:32:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="TC_FUNC_0024_verifyErrorMessageForNonNumericValueForFirstNumberTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0024_VerifyErrorMessageForNonNumericValueForFirstNumberTest@72d818d1]" name="TC_FUNC_0024_verifyErrorMessageForNonNumericValueForFirstNumberTest" duration-ms="3156" started-at="2019-12-26T18:32:26Z" data-provider="getTestData" finished-at="2019-12-26T18:32:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ab#]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Enter valid numeric or float value for First Number]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Error Message verification for non-numeric value for First Number - FAILED expected [Enter valid numeric or float value for First Number] but found [NaN]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Error Message verification for non-numeric value for First Number - FAILED expected [Enter valid numeric or float value for First Number] but found [NaN]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at com.propine.qa.testcases.TC_FUNC_0024_VerifyErrorMessageForNonNumericValueForFirstNumberTest.TC_FUNC_0024_verifyErrorMessageForNonNumericValueForFirstNumberTest(TC_FUNC_0024_VerifyErrorMessageForNonNumericValueForFirstNumberTest.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_FUNC_0024_verifyErrorMessageForNonNumericValueForFirstNumberTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0024_VerifyErrorMessageForNonNumericValueForFirstNumberTest@72d818d1]" name="tearDown" is-config="true" duration-ms="777" started-at="2019-12-26T18:32:29Z" finished-at="2019-12-26T18:32:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0024_VerifyErrorMessageForNonNumericValueForFirstNumberTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0017_VerifyAdditionOfNegativeIntAndNegativeFloatNumbersTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0017_VerifyAdditionOfNegativeIntAndNegativeFloatNumbersTest@5f2108b5]" name="setUp" is-config="true" duration-ms="5319" started-at="2019-12-26T18:31:14Z" finished-at="2019-12-26T18:31:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TC_FUNC_0017_verifyAdditionOfNegativeIntAndNegativeFloatNumbersTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0017_VerifyAdditionOfNegativeIntAndNegativeFloatNumbersTest@5f2108b5]" name="TC_FUNC_0017_verifyAdditionOfNegativeIntAndNegativeFloatNumbersTest" duration-ms="3241" started-at="2019-12-26T18:31:19Z" data-provider="getTestData" finished-at="2019-12-26T18:31:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-10.02]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-20.02]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_FUNC_0017_verifyAdditionOfNegativeIntAndNegativeFloatNumbersTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0017_VerifyAdditionOfNegativeIntAndNegativeFloatNumbersTest@5f2108b5]" name="tearDown" is-config="true" duration-ms="811" started-at="2019-12-26T18:31:22Z" finished-at="2019-12-26T18:31:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0017_VerifyAdditionOfNegativeIntAndNegativeFloatNumbersTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0015_VerifyAdditionOfNegativeIntAndPositiveFloatNumbersTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0015_VerifyAdditionOfNegativeIntAndPositiveFloatNumbersTest@5bcab519]" name="setUp" is-config="true" duration-ms="5309" started-at="2019-12-26T18:30:55Z" finished-at="2019-12-26T18:31:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="TC_FUNC_0015_verifyAdditionOfNegativeIntAndPositiveFloatNumbersTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0015_VerifyAdditionOfNegativeIntAndPositiveFloatNumbersTest@5bcab519]" name="TC_FUNC_0015_verifyAdditionOfNegativeIntAndPositiveFloatNumbersTest" duration-ms="3239" started-at="2019-12-26T18:31:00Z" data-provider="getTestData" finished-at="2019-12-26T18:31:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10.02]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.02]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Addition of negative integer and positive float numbers - FAILED expected [0.02] but found [0.019999999999999574]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Addition of negative integer and positive float numbers - FAILED expected [0.02] but found [0.019999999999999574]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at com.propine.qa.testcases.TC_FUNC_0015_VerifyAdditionOfNegativeIntAndPositiveFloatNumbersTest.TC_FUNC_0015_verifyAdditionOfNegativeIntAndPositiveFloatNumbersTest(TC_FUNC_0015_VerifyAdditionOfNegativeIntAndPositiveFloatNumbersTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_FUNC_0015_verifyAdditionOfNegativeIntAndPositiveFloatNumbersTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0015_VerifyAdditionOfNegativeIntAndPositiveFloatNumbersTest@5bcab519]" name="tearDown" is-config="true" duration-ms="792" started-at="2019-12-26T18:31:04Z" finished-at="2019-12-26T18:31:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0015_VerifyAdditionOfNegativeIntAndPositiveFloatNumbersTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0012_VerifyAdditionOfNegativeAndPositiveFloatNumbersTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0012_VerifyAdditionOfNegativeAndPositiveFloatNumbersTest@1ce92674]" name="setUp" is-config="true" duration-ms="5235" started-at="2019-12-26T18:30:27Z" finished-at="2019-12-26T18:30:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="TC_FUNC_0012_verifyAdditionOfNegativeAndPositiveFloatNumbersTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0012_VerifyAdditionOfNegativeAndPositiveFloatNumbersTest@1ce92674]" name="TC_FUNC_0012_verifyAdditionOfNegativeAndPositiveFloatNumbersTest" duration-ms="3271" started-at="2019-12-26T18:30:32Z" data-provider="getTestData" finished-at="2019-12-26T18:30:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-10.04]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10.02]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-0.02]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Addition of negative and positive float numbers - FAILED expected [-0.02] but found [-0.019999999999999574]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Addition of negative and positive float numbers - FAILED expected [-0.02] but found [-0.019999999999999574]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at com.propine.qa.testcases.TC_FUNC_0012_VerifyAdditionOfNegativeAndPositiveFloatNumbersTest.TC_FUNC_0012_verifyAdditionOfNegativeAndPositiveFloatNumbersTest(TC_FUNC_0012_VerifyAdditionOfNegativeAndPositiveFloatNumbersTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_FUNC_0012_verifyAdditionOfNegativeAndPositiveFloatNumbersTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0012_VerifyAdditionOfNegativeAndPositiveFloatNumbersTest@1ce92674]" name="tearDown" is-config="true" duration-ms="804" started-at="2019-12-26T18:30:35Z" finished-at="2019-12-26T18:30:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0012_VerifyAdditionOfNegativeAndPositiveFloatNumbersTest -->
+      <class name="com.propine.qa.testcases.TC_FIELD_0003_VerifyFirstNumberForNonNumericValuesTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.propine.qa.testcases.TC_FIELD_0003_VerifyFirstNumberForNonNumericValuesTest@553f17c]" name="setUp" is-config="true" duration-ms="5861" started-at="2019-12-26T18:28:20Z" finished-at="2019-12-26T18:28:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="TC_FIELD_0003_verifyFirstNumberForNonNumericValuesTest(java.lang.String)[pri:0, instance:com.propine.qa.testcases.TC_FIELD_0003_VerifyFirstNumberForNonNumericValuesTest@553f17c]" name="TC_FIELD_0003_verifyFirstNumberForNonNumericValuesTest" duration-ms="262" started-at="2019-12-26T18:28:26Z" data-provider="getTestData" finished-at="2019-12-26T18:28:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ab$&]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Field verification for Non-Numeric Values - FAILED]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Field verification for Non-Numeric Values - FAILED
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotEquals(Assert.java:856)
+	at com.propine.qa.testcases.TC_FIELD_0003_VerifyFirstNumberForNonNumericValuesTest.TC_FIELD_0003_verifyFirstNumberForNonNumericValuesTest(TC_FIELD_0003_VerifyFirstNumberForNonNumericValuesTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_FIELD_0003_verifyFirstNumberForNonNumericValuesTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.propine.qa.testcases.TC_FIELD_0003_VerifyFirstNumberForNonNumericValuesTest@553f17c]" name="tearDown" is-config="true" duration-ms="761" started-at="2019-12-26T18:28:26Z" finished-at="2019-12-26T18:28:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.propine.qa.testcases.TC_FIELD_0003_VerifyFirstNumberForNonNumericValuesTest -->
+      <class name="com.propine.qa.testcases.TC_FIELD_0002_VerifySecondNumberForNumericValuesTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.propine.qa.testcases.TC_FIELD_0002_VerifySecondNumberForNumericValuesTest@5f341870]" name="setUp" is-config="true" duration-ms="5911" started-at="2019-12-26T18:28:13Z" finished-at="2019-12-26T18:28:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TC_FIELD_0002_verifySecondNumberForNumericValuesTest(java.lang.String)[pri:0, instance:com.propine.qa.testcases.TC_FIELD_0002_VerifySecondNumberForNumericValuesTest@5f341870]" name="TC_FIELD_0002_verifySecondNumberForNumericValuesTest" duration-ms="215" started-at="2019-12-26T18:28:19Z" data-provider="getTestData" finished-at="2019-12-26T18:28:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[20.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_FIELD_0002_verifySecondNumberForNumericValuesTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.propine.qa.testcases.TC_FIELD_0002_VerifySecondNumberForNumericValuesTest@5f341870]" name="tearDown" is-config="true" duration-ms="757" started-at="2019-12-26T18:28:19Z" finished-at="2019-12-26T18:28:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.propine.qa.testcases.TC_FIELD_0002_VerifySecondNumberForNumericValuesTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0003_VerifyAdditionOfTwoZeroNumbersTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0003_VerifyAdditionOfTwoZeroNumbersTest@42dafa95]" name="setUp" is-config="true" duration-ms="5891" started-at="2019-12-26T18:28:57Z" finished-at="2019-12-26T18:29:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TC_FUNC_0003_verifyAdditionOfTwoZeroNumbersTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0003_VerifyAdditionOfTwoZeroNumbersTest@42dafa95]" name="TC_FUNC_0003_verifyAdditionOfTwoZeroNumbersTest" duration-ms="3404" started-at="2019-12-26T18:29:03Z" data-provider="getTestData" finished-at="2019-12-26T18:29:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_FUNC_0003_verifyAdditionOfTwoZeroNumbersTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0003_VerifyAdditionOfTwoZeroNumbersTest@42dafa95]" name="tearDown" is-config="true" duration-ms="908" started-at="2019-12-26T18:29:06Z" finished-at="2019-12-26T18:29:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0003_VerifyAdditionOfTwoZeroNumbersTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0022_VerifyErrorMessageForNullValueForSecondNumberTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0022_VerifyErrorMessageForNullValueForSecondNumberTest@56ac3a89]" name="setUp" is-config="true" duration-ms="5180" started-at="2019-12-26T18:32:02Z" finished-at="2019-12-26T18:32:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="TC_FUNC_0022_verifyErrorMessageForNullValueForSecondNumberTest(java.lang.String, java.lang.String)[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0022_VerifyErrorMessageForNullValueForSecondNumberTest@56ac3a89]" name="TC_FUNC_0022_verifyErrorMessageForNullValueForSecondNumberTest" duration-ms="3069" started-at="2019-12-26T18:32:08Z" data-provider="getTestData" finished-at="2019-12-26T18:32:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Enter valid numeric or float value for Second Number]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Error Message verification for null value for Second Number - FAILED expected [Enter valid numeric or float value for Second Number] but found [NaN]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Error Message verification for null value for Second Number - FAILED expected [Enter valid numeric or float value for Second Number] but found [NaN]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at com.propine.qa.testcases.TC_FUNC_0022_VerifyErrorMessageForNullValueForSecondNumberTest.TC_FUNC_0022_verifyErrorMessageForNullValueForSecondNumberTest(TC_FUNC_0022_VerifyErrorMessageForNullValueForSecondNumberTest.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_FUNC_0022_verifyErrorMessageForNullValueForSecondNumberTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0022_VerifyErrorMessageForNullValueForSecondNumberTest@56ac3a89]" name="tearDown" is-config="true" duration-ms="837" started-at="2019-12-26T18:32:11Z" finished-at="2019-12-26T18:32:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0022_VerifyErrorMessageForNullValueForSecondNumberTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0007_VerifyAdditionOfNegativeAndZeroIntegerNumbersTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0007_VerifyAdditionOfNegativeAndZeroIntegerNumbersTest@4cf777e8]" name="setUp" is-config="true" duration-ms="5722" started-at="2019-12-26T18:29:37Z" finished-at="2019-12-26T18:29:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TC_FUNC_0007_verifyAdditionOfNegativeAndZeroIntegerNumbersTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0007_VerifyAdditionOfNegativeAndZeroIntegerNumbersTest@4cf777e8]" name="TC_FUNC_0007_verifyAdditionOfNegativeAndZeroIntegerNumbersTest" duration-ms="3243" started-at="2019-12-26T18:29:43Z" data-provider="getTestData" finished-at="2019-12-26T18:29:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-20]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_FUNC_0007_verifyAdditionOfNegativeAndZeroIntegerNumbersTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0007_VerifyAdditionOfNegativeAndZeroIntegerNumbersTest@4cf777e8]" name="tearDown" is-config="true" duration-ms="1237" started-at="2019-12-26T18:29:46Z" finished-at="2019-12-26T18:29:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0007_VerifyAdditionOfNegativeAndZeroIntegerNumbersTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0030_VerifyErrorMessageForNumericValueWithSpaceForFirstNumberTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0030_VerifyErrorMessageForNumericValueWithSpaceForFirstNumberTest@13805618]" name="setUp" is-config="true" duration-ms="5343" started-at="2019-12-26T18:33:16Z" finished-at="2019-12-26T18:33:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="TC_FUNC_0030_verifyErrorMessageForNumericValueWithSpaceForFirstNumberTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0030_VerifyErrorMessageForNumericValueWithSpaceForFirstNumberTest@13805618]" name="TC_FUNC_0030_verifyErrorMessageForNumericValueWithSpaceForFirstNumberTest" duration-ms="3082" started-at="2019-12-26T18:33:22Z" data-provider="getTestData" finished-at="2019-12-26T18:33:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[   5  ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Enter valid numeric or float value for First Number]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Error Message verification for numeric value with space for First Number - FAILED expected [Enter valid numeric or float value for First Number] but found [15]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Error Message verification for numeric value with space for First Number - FAILED expected [Enter valid numeric or float value for First Number] but found [15]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at com.propine.qa.testcases.TC_FUNC_0030_VerifyErrorMessageForNumericValueWithSpaceForFirstNumberTest.TC_FUNC_0030_verifyErrorMessageForNumericValueWithSpaceForFirstNumberTest(TC_FUNC_0030_VerifyErrorMessageForNumericValueWithSpaceForFirstNumberTest.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_FUNC_0030_verifyErrorMessageForNumericValueWithSpaceForFirstNumberTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0030_VerifyErrorMessageForNumericValueWithSpaceForFirstNumberTest@13805618]" name="tearDown" is-config="true" duration-ms="866" started-at="2019-12-26T18:33:25Z" finished-at="2019-12-26T18:33:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0030_VerifyErrorMessageForNumericValueWithSpaceForFirstNumberTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0006_VerifyAdditionOfPositiveAndZeroIntegerNumbersTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0006_VerifyAdditionOfPositiveAndZeroIntegerNumbersTest@59ec2012]" name="setUp" is-config="true" duration-ms="5910" started-at="2019-12-26T18:29:27Z" finished-at="2019-12-26T18:29:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TC_FUNC_0006_verifyAdditionOfPositiveAndZeroIntegerNumbersTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0006_VerifyAdditionOfPositiveAndZeroIntegerNumbersTest@59ec2012]" name="TC_FUNC_0006_verifyAdditionOfPositiveAndZeroIntegerNumbersTest" duration-ms="3394" started-at="2019-12-26T18:29:33Z" data-provider="getTestData" finished-at="2019-12-26T18:29:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_FUNC_0006_verifyAdditionOfPositiveAndZeroIntegerNumbersTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0006_VerifyAdditionOfPositiveAndZeroIntegerNumbersTest@59ec2012]" name="tearDown" is-config="true" duration-ms="835" started-at="2019-12-26T18:29:37Z" finished-at="2019-12-26T18:29:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0006_VerifyAdditionOfPositiveAndZeroIntegerNumbersTest -->
+      <class name="com.propine.qa.testcases.TC_FIELD_0001_VerifyFirstNumberForNumericValuesTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.propine.qa.testcases.TC_FIELD_0001_VerifyFirstNumberForNumericValuesTest@14bf9759]" name="setUp" is-config="true" duration-ms="17524" started-at="2019-12-26T18:27:54Z" finished-at="2019-12-26T18:28:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TC_FIELD_0001_verifyFirstNumberForNumericValuesTest(java.lang.String)[pri:0, instance:com.propine.qa.testcases.TC_FIELD_0001_VerifyFirstNumberForNumericValuesTest@14bf9759]" name="TC_FIELD_0001_verifyFirstNumberForNumericValuesTest" duration-ms="238" started-at="2019-12-26T18:28:12Z" data-provider="getTestData" finished-at="2019-12-26T18:28:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_FIELD_0001_verifyFirstNumberForNumericValuesTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.propine.qa.testcases.TC_FIELD_0001_VerifyFirstNumberForNumericValuesTest@14bf9759]" name="tearDown" is-config="true" duration-ms="746" started-at="2019-12-26T18:28:12Z" finished-at="2019-12-26T18:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.propine.qa.testcases.TC_FIELD_0001_VerifyFirstNumberForNumericValuesTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0005_VerifyAdditionOfNegativeAndPositiveIntegerNumbersTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0005_VerifyAdditionOfNegativeAndPositiveIntegerNumbersTest@402a079c]" name="setUp" is-config="true" duration-ms="5740" started-at="2019-12-26T18:29:17Z" finished-at="2019-12-26T18:29:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TC_FUNC_0005_verifyAdditionOfNegativeAndPositiveIntegerNumbersTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0005_VerifyAdditionOfNegativeAndPositiveIntegerNumbersTest@402a079c]" name="TC_FUNC_0005_verifyAdditionOfNegativeAndPositiveIntegerNumbersTest" duration-ms="3213" started-at="2019-12-26T18:29:23Z" data-provider="getTestData" finished-at="2019-12-26T18:29:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-20]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_FUNC_0005_verifyAdditionOfNegativeAndPositiveIntegerNumbersTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0005_VerifyAdditionOfNegativeAndPositiveIntegerNumbersTest@402a079c]" name="tearDown" is-config="true" duration-ms="799" started-at="2019-12-26T18:29:26Z" finished-at="2019-12-26T18:29:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0005_VerifyAdditionOfNegativeAndPositiveIntegerNumbersTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0025_VerifyErrorMessageForNonNumericValueForSecondNumberTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0025_VerifyErrorMessageForNonNumericValueForSecondNumberTest@6e06451e]" name="setUp" is-config="true" duration-ms="5314" started-at="2019-12-26T18:32:30Z" finished-at="2019-12-26T18:32:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="TC_FUNC_0025_verifyErrorMessageForNonNumericValueForSecondNumberTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0025_VerifyErrorMessageForNonNumericValueForSecondNumberTest@6e06451e]" name="TC_FUNC_0025_verifyErrorMessageForNonNumericValueForSecondNumberTest" duration-ms="3156" started-at="2019-12-26T18:32:35Z" data-provider="getTestData" finished-at="2019-12-26T18:32:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ab#]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Enter valid numeric or float value for Second Number]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Error Message verification for non-numeric value for Second Number - FAILED expected [Enter valid numeric or float value for Second Number] but found [NaN]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Error Message verification for non-numeric value for Second Number - FAILED expected [Enter valid numeric or float value for Second Number] but found [NaN]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at com.propine.qa.testcases.TC_FUNC_0025_VerifyErrorMessageForNonNumericValueForSecondNumberTest.TC_FUNC_0025_verifyErrorMessageForNonNumericValueForSecondNumberTest(TC_FUNC_0025_VerifyErrorMessageForNonNumericValueForSecondNumberTest.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_FUNC_0025_verifyErrorMessageForNonNumericValueForSecondNumberTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0025_VerifyErrorMessageForNonNumericValueForSecondNumberTest@6e06451e]" name="tearDown" is-config="true" duration-ms="796" started-at="2019-12-26T18:32:38Z" finished-at="2019-12-26T18:32:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0025_VerifyErrorMessageForNonNumericValueForSecondNumberTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0027_VerifyErrorMessageForAlphaNumericValueForFirstNumberTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0027_VerifyErrorMessageForAlphaNumericValueForFirstNumberTest@6e1567f1]" name="setUp" is-config="true" duration-ms="5424" started-at="2019-12-26T18:32:48Z" finished-at="2019-12-26T18:32:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="TC_FUNC_0027_verifyErrorMessageForAlphaNumericValueForFirstNumberTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0027_VerifyErrorMessageForAlphaNumericValueForFirstNumberTest@6e1567f1]" name="TC_FUNC_0027_verifyErrorMessageForAlphaNumericValueForFirstNumberTest" duration-ms="3156" started-at="2019-12-26T18:32:54Z" data-provider="getTestData" finished-at="2019-12-26T18:32:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Enter valid numeric or float value for First Number]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Error Message verification for alpha-numeric value for First Number - FAILED expected [Enter valid numeric or float value for First Number] but found [11]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Error Message verification for alpha-numeric value for First Number - FAILED expected [Enter valid numeric or float value for First Number] but found [11]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at com.propine.qa.testcases.TC_FUNC_0027_VerifyErrorMessageForAlphaNumericValueForFirstNumberTest.TC_FUNC_0027_verifyErrorMessageForAlphaNumericValueForFirstNumberTest(TC_FUNC_0027_VerifyErrorMessageForAlphaNumericValueForFirstNumberTest.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_FUNC_0027_verifyErrorMessageForAlphaNumericValueForFirstNumberTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0027_VerifyErrorMessageForAlphaNumericValueForFirstNumberTest@6e1567f1]" name="tearDown" is-config="true" duration-ms="800" started-at="2019-12-26T18:32:57Z" finished-at="2019-12-26T18:32:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0027_VerifyErrorMessageForAlphaNumericValueForFirstNumberTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0009_VerifyAdditionOfTwoPositiveFloatNumbersTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0009_VerifyAdditionOfTwoPositiveFloatNumbersTest@3fee9989]" name="setUp" is-config="true" duration-ms="5720" started-at="2019-12-26T18:29:58Z" finished-at="2019-12-26T18:30:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TC_FUNC_0009_verifyAdditionOfTwoPositiveFloatNumbersTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0009_VerifyAdditionOfTwoPositiveFloatNumbersTest@3fee9989]" name="TC_FUNC_0009_verifyAdditionOfTwoPositiveFloatNumbersTest" duration-ms="3382" started-at="2019-12-26T18:30:03Z" data-provider="getTestData" finished-at="2019-12-26T18:30:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10.04]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10.02]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20.06]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_FUNC_0009_verifyAdditionOfTwoPositiveFloatNumbersTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0009_VerifyAdditionOfTwoPositiveFloatNumbersTest@3fee9989]" name="tearDown" is-config="true" duration-ms="781" started-at="2019-12-26T18:30:07Z" finished-at="2019-12-26T18:30:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0009_VerifyAdditionOfTwoPositiveFloatNumbersTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0026_VerifyErrorMessageForNonNumericValueForFirstNumberAndSecondNumberTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0026_VerifyErrorMessageForNonNumericValueForFirstNumberAndSecondNumberTest@59494225]" name="setUp" is-config="true" duration-ms="5179" started-at="2019-12-26T18:32:39Z" finished-at="2019-12-26T18:32:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="TC_FUNC_0026_verifyErrorMessageForNonNumericValueForFirstNumberAndSecondNumberTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0026_VerifyErrorMessageForNonNumericValueForFirstNumberAndSecondNumberTest@59494225]" name="TC_FUNC_0026_verifyErrorMessageForNonNumericValueForFirstNumberAndSecondNumberTest" duration-ms="3291" started-at="2019-12-26T18:32:44Z" data-provider="getTestData" finished-at="2019-12-26T18:32:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ab#]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ab#]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Enter valid numeric or float value for First Number]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Enter valid numeric or float value for Second Number]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Error Message verification for non-numeric value for First Number - FAILED expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Error Message verification for non-numeric value for First Number - FAILED expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.propine.qa.testcases.TC_FUNC_0026_VerifyErrorMessageForNonNumericValueForFirstNumberAndSecondNumberTest.TC_FUNC_0026_verifyErrorMessageForNonNumericValueForFirstNumberAndSecondNumberTest(TC_FUNC_0026_VerifyErrorMessageForNonNumericValueForFirstNumberAndSecondNumberTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_FUNC_0026_verifyErrorMessageForNonNumericValueForFirstNumberAndSecondNumberTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.propine.qa.testcases.TC_FUNC_0026_VerifyErrorMessageForNonNumericValueForFirstNumberAndSecondNumberTest@59494225]" name="tearDown" is-config="true" duration-ms="817" started-at="2019-12-26T18:32:48Z" finished-at="2019-12-26T18:32:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0026_VerifyErrorMessageForNonNumericValueForFirstNumberAndSecondNumberTest -->
+    </test> <!-- PROPINE Addition Calculator Test Cases -->
+  </suite> <!-- PROPINE Sample Automation Test Suite -->
+</testng-results>

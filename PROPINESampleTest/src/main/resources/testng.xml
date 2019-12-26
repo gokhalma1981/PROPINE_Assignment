@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PROPINE Sample Automation Test Suite">
+
+	<listeners>
+		<listener class-name="com.propine.qa.util.ExtentReporterNG" />
+	</listeners>
+	
+	<test name="PROPINE Addition Calculator Test Cases">
+		<classes>
+		
+			<class name="com.propine.qa.testcases.TC_FIELD_0001_VerifyFirstNumberForNumericValuesTest" />
+			<class name="com.propine.qa.testcases.TC_FIELD_0002_VerifySecondNumberForNumericValuesTest" />
+			<class name="com.propine.qa.testcases.TC_FIELD_0003_VerifyFirstNumberForNonNumericValuesTest" />
+			<class name="com.propine.qa.testcases.TC_FIELD_0004_VerifySecondNumberForNonNumericValuesTest" />
+			<class name="com.propine.qa.testcases.TC_FUNC_0001_VerifyAdditionOfTwoPositiveIntegerNumbersTest" />
+			<class name="com.propine.qa.testcases.TC_FUNC_0002_VerifyAdditionOfTwoNegativeIntegerNumbersTest" />
+			<class name="com.propine.qa.testcases.TC_FUNC_0003_VerifyAdditionOfTwoZeroNumbersTest" />
+			<class name="com.propine.qa.testcases.TC_FUNC_0004_VerifyAdditionOfPositiveAndNegativeIntegerNumbersTest" />
+			<class name="com.propine.qa.testcases.TC_FUNC_0005_VerifyAdditionOfNegativeAndPositiveIntegerNumbersTest" />
+			<class name="com.propine.qa.testcases.TC_FUNC_0006_VerifyAdditionOfPositiveAndZeroIntegerNumbersTest" />
+			<class name="com.propine.qa.testcases.TC_FUNC_0007_VerifyAdditionOfNegativeAndZeroIntegerNumbersTest" />
+			<class name="com.propine.qa.testcases.TC_FUNC_0008_VerifyAdditionOfTwoZeroIntegerNumbersTest" />
+			<class name="com.propine.qa.testcases.TC_FUNC_0009_VerifyAdditionOfTwoPositiveFloatNumbersTest" />
+			<class name="com.propine.qa.testcases.TC_FUNC_0010_VerifyAdditionOfTwoNegativeFloatNumbersTest" />
+			<class name="com.propine.qa.testcases.TC_FUNC_0011_VerifyAdditionOfPositiveAndNegativeFloatNumbersTest" />
+			<class name="com.propine.qa.testcases.TC_FUNC_0012_VerifyAdditionOfNegativeAndPositiveFloatNumbersTest" />
+			<class name="com.propine.qa.testcases.TC_FUNC_0013_VerifyAdditionOfPositiveIntAndPositiveFloatNumbersTest" />
+			<class name="com.propine.qa.testcases.TC_FUNC_0014_VerifyAdditionOfPositiveFloatAndPositiveIntNumbersTest" />
+			<class name="com.propine.qa.testcases.TC_FUNC_0015_VerifyAdditionOfNegativeIntAndPositiveFloatNumbersTest" />
+			<class name="com.propine.qa.testcases.TC_FUNC_0016_VerifyAdditionOfNegativeFloatAndPositiveIntNumbersTest" />
+			<class name="com.propine.qa.testcases.TC_FUNC_0017_VerifyAdditionOfNegativeIntAndNegativeFloatNumbersTest" />
+			<class name="com.propine.qa.testcases.TC_FUNC_0018_VerifyAdditionOfNegativeFloatAndNegativeIntNumbersTest" />
+			<class name="com.propine.qa.testcases.TC_FUNC_0019_VerifyAdditionOfTwoPositiveFloatNumbersWithDiffDecimalsTest" />
+			<class name="com.propine.qa.testcases.TC_FUNC_0020_VerifyAdditionOfTwoNegativeFloatNumbersWithDiffDecimalsTest" />
+			<class name="com.propine.qa.testcases.TC_FUNC_0021_VerifyErrorMessageForNullValueForFirstNumberTest" />
+			<class name="com.propine.qa.testcases.TC_FUNC_0022_VerifyErrorMessageForNullValueForSecondNumberTest" />
+			<class name="com.propine.qa.testcases.TC_FUNC_0023_VerifyErrorMessageForNullValuesForFirstNumberAndSecondNumberTest" />
+			<class name="com.propine.qa.testcases.TC_FUNC_0024_VerifyErrorMessageForNonNumericValueForFirstNumberTest" />
+			<class name="com.propine.qa.testcases.TC_FUNC_0025_VerifyErrorMessageForNonNumericValueForSecondNumberTest" />
+			<class name="com.propine.qa.testcases.TC_FUNC_0026_VerifyErrorMessageForNonNumericValueForFirstNumberAndSecondNumberTest" />
+			<class name="com.propine.qa.testcases.TC_FUNC_0027_VerifyErrorMessageForAlphaNumericValueForFirstNumberTest" />
+			<class name="com.propine.qa.testcases.TC_FUNC_0028_VerifyErrorMessageForAlphaNumericValueForSecondNumberTest" />
+			<class name="com.propine.qa.testcases.TC_FUNC_0029_VerifyErrorMessageForAlphaNumericValueForFirstNumberAndSecondNumberTest" />
+			<class name="com.propine.qa.testcases.TC_FUNC_0030_VerifyErrorMessageForNumericValueWithSpaceForFirstNumberTest" />
+			<class name="com.propine.qa.testcases.TC_FUNC_0031_VerifyErrorMessageForNumericValueWithSpaceForSecondNumberTest" />
+			<class name="com.propine.qa.testcases.TC_FUNC_0032_VerifyErrorMessageForNumericValueWithSpaceForFirstNumberAndSecondNumberTest" />
+
+		</classes>
+	</test>
+	
+</suite> 

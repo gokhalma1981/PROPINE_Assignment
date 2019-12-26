@@ -1,0 +1,919 @@
+<html>
+<head>
+<title>TestNG:  PROPINE Addition Calculator Test Cases</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>PROPINE Addition Calculator Test Cases</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>16/20/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Dec 26 18:27:53 SGT 2019</td>
+</tr>
+<tr><td>Total time:</td><td>352 seconds (352295 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.propine.qa.testcases.TC_FIELD_0003_VerifyFirstNumberForNonNumericValuesTest.TC_FIELD_0003_verifyFirstNumberForNonNumericValuesTest()'><b>TC_FIELD_0003_verifyFirstNumberForNonNumericValuesTest</b><br>Test class: com.propine.qa.testcases.TC_FIELD_0003_VerifyFirstNumberForNonNumericValuesTest<br>Parameters: ab$&</td>
+<td><div><pre>java.lang.AssertionError: Field verification for Non-Numeric Values - FAILED
+	at com.propine.qa.testcases.TC_FIELD_0003_VerifyFirstNumberForNonNumericValuesTest.TC_FIELD_0003_verifyFirstNumberForNonNumericValuesTest(TC_FIELD_0003_VerifyFirstNumberForNonNumericValuesTest.java:41)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1923634801", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1923634801'><pre>java.lang.AssertionError: Field verification for Non-Numeric Values - FAILED
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotEquals(Assert.java:856)
+	at com.propine.qa.testcases.TC_FIELD_0003_VerifyFirstNumberForNonNumericValuesTest.TC_FIELD_0003_verifyFirstNumberForNonNumericValuesTest(TC_FIELD_0003_VerifyFirstNumberForNonNumericValuesTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+</pre></div></td>
+<td>0</td>
+<td>com.propine.qa.testcases.TC_FIELD_0003_VerifyFirstNumberForNonNumericValuesTest@553f17c</td></tr>
+<tr>
+<td title='com.propine.qa.testcases.TC_FIELD_0004_VerifySecondNumberForNonNumericValuesTest.TC_FIELD_0004_verifySecondNumberForNonNumericValuesTest()'><b>TC_FIELD_0004_verifySecondNumberForNonNumericValuesTest</b><br>Test class: com.propine.qa.testcases.TC_FIELD_0004_VerifySecondNumberForNonNumericValuesTest<br>Parameters: ab$&</td>
+<td><div><pre>java.lang.AssertionError: Field verification for Non-Numeric Values - FAILED
+	at com.propine.qa.testcases.TC_FIELD_0004_VerifySecondNumberForNonNumericValuesTest.TC_FIELD_0004_verifySecondNumberForNonNumericValuesTest(TC_FIELD_0004_VerifySecondNumberForNonNumericValuesTest.java:41)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1349025531", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1349025531'><pre>java.lang.AssertionError: Field verification for Non-Numeric Values - FAILED
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotEquals(Assert.java:856)
+	at com.propine.qa.testcases.TC_FIELD_0004_VerifySecondNumberForNonNumericValuesTest.TC_FIELD_0004_verifySecondNumberForNonNumericValuesTest(TC_FIELD_0004_VerifySecondNumberForNonNumericValuesTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+</pre></div></td>
+<td>3</td>
+<td>com.propine.qa.testcases.TC_FIELD_0004_VerifySecondNumberForNonNumericValuesTest@4f7d0008</td></tr>
+<tr>
+<td title='com.propine.qa.testcases.TC_FUNC_0011_VerifyAdditionOfPositiveAndNegativeFloatNumbersTest.TC_FUNC_0011_verifyAdditionOfPositiveAndNegativeFloatNumbersTest()'><b>TC_FUNC_0011_verifyAdditionOfPositiveAndNegativeFloatNumbersTest</b><br>Test class: com.propine.qa.testcases.TC_FUNC_0011_VerifyAdditionOfPositiveAndNegativeFloatNumbersTest<br>Parameters: 10.04, -10.02, 0.02</td>
+<td><div><pre>java.lang.AssertionError: Addition of positive and negative float numbers - FAILED expected [0.02] but found [0.019999999999999574]
+	at com.propine.qa.testcases.TC_FUNC_0011_VerifyAdditionOfPositiveAndNegativeFloatNumbersTest.TC_FUNC_0011_verifyAdditionOfPositiveAndNegativeFloatNumbersTest(TC_FUNC_0011_VerifyAdditionOfPositiveAndNegativeFloatNumbersTest.java:41)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2121573248", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2121573248'><pre>java.lang.AssertionError: Addition of positive and negative float numbers - FAILED expected [0.02] but found [0.019999999999999574]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at com.propine.qa.testcases.TC_FUNC_0011_VerifyAdditionOfPositiveAndNegativeFloatNumbersTest.TC_FUNC_0011_verifyAdditionOfPositiveAndNegativeFloatNumbersTest(TC_FUNC_0011_VerifyAdditionOfPositiveAndNegativeFloatNumbersTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+</pre></div></td>
+<td>3</td>
+<td>com.propine.qa.testcases.TC_FUNC_0011_VerifyAdditionOfPositiveAndNegativeFloatNumbersTest@7085bdee</td></tr>
+<tr>
+<td title='com.propine.qa.testcases.TC_FUNC_0012_VerifyAdditionOfNegativeAndPositiveFloatNumbersTest.TC_FUNC_0012_verifyAdditionOfNegativeAndPositiveFloatNumbersTest()'><b>TC_FUNC_0012_verifyAdditionOfNegativeAndPositiveFloatNumbersTest</b><br>Test class: com.propine.qa.testcases.TC_FUNC_0012_VerifyAdditionOfNegativeAndPositiveFloatNumbersTest<br>Parameters: -10.04, 10.02, -0.02</td>
+<td><div><pre>java.lang.AssertionError: Addition of negative and positive float numbers - FAILED expected [-0.02] but found [-0.019999999999999574]
+	at com.propine.qa.testcases.TC_FUNC_0012_VerifyAdditionOfNegativeAndPositiveFloatNumbersTest.TC_FUNC_0012_verifyAdditionOfNegativeAndPositiveFloatNumbersTest(TC_FUNC_0012_VerifyAdditionOfNegativeAndPositiveFloatNumbersTest.java:41)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace446093644", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace446093644'><pre>java.lang.AssertionError: Addition of negative and positive float numbers - FAILED expected [-0.02] but found [-0.019999999999999574]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at com.propine.qa.testcases.TC_FUNC_0012_VerifyAdditionOfNegativeAndPositiveFloatNumbersTest.TC_FUNC_0012_verifyAdditionOfNegativeAndPositiveFloatNumbersTest(TC_FUNC_0012_VerifyAdditionOfNegativeAndPositiveFloatNumbersTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+</pre></div></td>
+<td>3</td>
+<td>com.propine.qa.testcases.TC_FUNC_0012_VerifyAdditionOfNegativeAndPositiveFloatNumbersTest@1ce92674</td></tr>
+<tr>
+<td title='com.propine.qa.testcases.TC_FUNC_0015_VerifyAdditionOfNegativeIntAndPositiveFloatNumbersTest.TC_FUNC_0015_verifyAdditionOfNegativeIntAndPositiveFloatNumbersTest()'><b>TC_FUNC_0015_verifyAdditionOfNegativeIntAndPositiveFloatNumbersTest</b><br>Test class: com.propine.qa.testcases.TC_FUNC_0015_VerifyAdditionOfNegativeIntAndPositiveFloatNumbersTest<br>Parameters: -10, 10.02, 0.02</td>
+<td><div><pre>java.lang.AssertionError: Addition of negative integer and positive float numbers - FAILED expected [0.02] but found [0.019999999999999574]
+	at com.propine.qa.testcases.TC_FUNC_0015_VerifyAdditionOfNegativeIntAndPositiveFloatNumbersTest.TC_FUNC_0015_verifyAdditionOfNegativeIntAndPositiveFloatNumbersTest(TC_FUNC_0015_VerifyAdditionOfNegativeIntAndPositiveFloatNumbersTest.java:41)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1494158416", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1494158416'><pre>java.lang.AssertionError: Addition of negative integer and positive float numbers - FAILED expected [0.02] but found [0.019999999999999574]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at com.propine.qa.testcases.TC_FUNC_0015_VerifyAdditionOfNegativeIntAndPositiveFloatNumbersTest.TC_FUNC_0015_verifyAdditionOfNegativeIntAndPositiveFloatNumbersTest(TC_FUNC_0015_VerifyAdditionOfNegativeIntAndPositiveFloatNumbersTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+</pre></div></td>
+<td>3</td>
+<td>com.propine.qa.testcases.TC_FUNC_0015_VerifyAdditionOfNegativeIntAndPositiveFloatNumbersTest@5bcab519</td></tr>
+<tr>
+<td title='com.propine.qa.testcases.TC_FUNC_0016_VerifyAdditionOfNegativeFloatAndPositiveIntNumbersTest.TC_FUNC_0016_verifyAdditionOfNegativeFloatAndPositiveIntNumbersTest()'><b>TC_FUNC_0016_verifyAdditionOfNegativeFloatAndPositiveIntNumbersTest</b><br>Test class: com.propine.qa.testcases.TC_FUNC_0016_VerifyAdditionOfNegativeFloatAndPositiveIntNumbersTest<br>Parameters: -10.015, 10, -0.015</td>
+<td><div><pre>java.lang.AssertionError: Addition of negative float and positive integer numbers - FAILED expected [-0.015] but found [-0.015000000000000568]
+	at com.propine.qa.testcases.TC_FUNC_0016_VerifyAdditionOfNegativeFloatAndPositiveIntNumbersTest.TC_FUNC_0016_verifyAdditionOfNegativeFloatAndPositiveIntNumbersTest(TC_FUNC_0016_VerifyAdditionOfNegativeFloatAndPositiveIntNumbersTest.java:41)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace665564874", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace665564874'><pre>java.lang.AssertionError: Addition of negative float and positive integer numbers - FAILED expected [-0.015] but found [-0.015000000000000568]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at com.propine.qa.testcases.TC_FUNC_0016_VerifyAdditionOfNegativeFloatAndPositiveIntNumbersTest.TC_FUNC_0016_verifyAdditionOfNegativeFloatAndPositiveIntNumbersTest(TC_FUNC_0016_VerifyAdditionOfNegativeFloatAndPositiveIntNumbersTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+</pre></div></td>
+<td>3</td>
+<td>com.propine.qa.testcases.TC_FUNC_0016_VerifyAdditionOfNegativeFloatAndPositiveIntNumbersTest@e45f292</td></tr>
+<tr>
+<td title='com.propine.qa.testcases.TC_FUNC_0019_VerifyAdditionOfTwoPositiveFloatNumbersWithDiffDecimalsTest.TC_FUNC_0019_verifyAdditionOfTwoPositiveFloatNumbersWithDiffDecimalsTest()'><b>TC_FUNC_0019_verifyAdditionOfTwoPositiveFloatNumbersWithDiffDecimalsTest</b><br>Test class: com.propine.qa.testcases.TC_FUNC_0019_VerifyAdditionOfTwoPositiveFloatNumbersWithDiffDecimalsTest<br>Parameters: 2.001, 4.0001, 6.0011</td>
+<td><div><pre>java.lang.AssertionError: Addition of two positive float numbers with different decimals - FAILED expected [6.0011] but found [6.001099999999999]
+	at com.propine.qa.testcases.TC_FUNC_0019_VerifyAdditionOfTwoPositiveFloatNumbersWithDiffDecimalsTest.TC_FUNC_0019_verifyAdditionOfTwoPositiveFloatNumbersWithDiffDecimalsTest(TC_FUNC_0019_VerifyAdditionOfTwoPositiveFloatNumbersWithDiffDecimalsTest.java:41)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1582906120", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1582906120'><pre>java.lang.AssertionError: Addition of two positive float numbers with different decimals - FAILED expected [6.0011] but found [6.001099999999999]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at com.propine.qa.testcases.TC_FUNC_0019_VerifyAdditionOfTwoPositiveFloatNumbersWithDiffDecimalsTest.TC_FUNC_0019_verifyAdditionOfTwoPositiveFloatNumbersWithDiffDecimalsTest(TC_FUNC_0019_VerifyAdditionOfTwoPositiveFloatNumbersWithDiffDecimalsTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+</pre></div></td>
+<td>3</td>
+<td>com.propine.qa.testcases.TC_FUNC_0019_VerifyAdditionOfTwoPositiveFloatNumbersWithDiffDecimalsTest@3f49dace</td></tr>
+<tr>
+<td title='com.propine.qa.testcases.TC_FUNC_0020_VerifyAdditionOfTwoNegativeFloatNumbersWithDiffDecimalsTest.TC_FUNC_0020_verifyAdditionOfTwoNegativeFloatNumbersWithDiffDecimalsTest()'><b>TC_FUNC_0020_verifyAdditionOfTwoNegativeFloatNumbersWithDiffDecimalsTest</b><br>Test class: com.propine.qa.testcases.TC_FUNC_0020_VerifyAdditionOfTwoNegativeFloatNumbersWithDiffDecimalsTest<br>Parameters: -12.008, -2.0002, -14.0082</td>
+<td><div><pre>java.lang.AssertionError: Addition of two positive float numbers with different decimals - FAILED expected [-14.0082] but found [-14.008199999999999]
+	at com.propine.qa.testcases.TC_FUNC_0020_VerifyAdditionOfTwoNegativeFloatNumbersWithDiffDecimalsTest.TC_FUNC_0020_verifyAdditionOfTwoNegativeFloatNumbersWithDiffDecimalsTest(TC_FUNC_0020_VerifyAdditionOfTwoNegativeFloatNumbersWithDiffDecimalsTest.java:41)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1733142395", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1733142395'><pre>java.lang.AssertionError: Addition of two positive float numbers with different decimals - FAILED expected [-14.0082] but found [-14.008199999999999]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at com.propine.qa.testcases.TC_FUNC_0020_VerifyAdditionOfTwoNegativeFloatNumbersWithDiffDecimalsTest.TC_FUNC_0020_verifyAdditionOfTwoNegativeFloatNumbersWithDiffDecimalsTest(TC_FUNC_0020_VerifyAdditionOfTwoNegativeFloatNumbersWithDiffDecimalsTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+</pre></div></td>
+<td>3</td>
+<td>com.propine.qa.testcases.TC_FUNC_0020_VerifyAdditionOfTwoNegativeFloatNumbersWithDiffDecimalsTest@1e397ed7</td></tr>
+<tr>
+<td title='com.propine.qa.testcases.TC_FUNC_0021_VerifyErrorMessageForNullValueForFirstNumberTest.TC_FUNC_0021_verifyErrorMessageForNullValueForFirstNumberTest()'><b>TC_FUNC_0021_verifyErrorMessageForNullValueForFirstNumberTest</b><br>Test class: com.propine.qa.testcases.TC_FUNC_0021_VerifyErrorMessageForNullValueForFirstNumberTest<br>Parameters: 10, Enter valid numeric or float value for First Number</td>
+<td><div><pre>java.lang.AssertionError: Error Message verification for null value for First Number - FAILED expected [Enter valid numeric or float value for First Number] but found [NaN]
+	at com.propine.qa.testcases.TC_FUNC_0021_VerifyErrorMessageForNullValueForFirstNumberTest.TC_FUNC_0021_verifyErrorMessageForNullValueForFirstNumberTest(TC_FUNC_0021_VerifyErrorMessageForNullValueForFirstNumberTest.java:40)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace863366099", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace863366099'><pre>java.lang.AssertionError: Error Message verification for null value for First Number - FAILED expected [Enter valid numeric or float value for First Number] but found [NaN]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at com.propine.qa.testcases.TC_FUNC_0021_VerifyErrorMessageForNullValueForFirstNumberTest.TC_FUNC_0021_verifyErrorMessageForNullValueForFirstNumberTest(TC_FUNC_0021_VerifyErrorMessageForNullValueForFirstNumberTest.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+</pre></div></td>
+<td>2</td>
+<td>com.propine.qa.testcases.TC_FUNC_0021_VerifyErrorMessageForNullValueForFirstNumberTest@490ab905</td></tr>
+<tr>
+<td title='com.propine.qa.testcases.TC_FUNC_0022_VerifyErrorMessageForNullValueForSecondNumberTest.TC_FUNC_0022_verifyErrorMessageForNullValueForSecondNumberTest()'><b>TC_FUNC_0022_verifyErrorMessageForNullValueForSecondNumberTest</b><br>Test class: com.propine.qa.testcases.TC_FUNC_0022_VerifyErrorMessageForNullValueForSecondNumberTest<br>Parameters: 10, Enter valid numeric or float value for Second Number</td>
+<td><div><pre>java.lang.AssertionError: Error Message verification for null value for Second Number - FAILED expected [Enter valid numeric or float value for Second Number] but found [NaN]
+	at com.propine.qa.testcases.TC_FUNC_0022_VerifyErrorMessageForNullValueForSecondNumberTest.TC_FUNC_0022_verifyErrorMessageForNullValueForSecondNumberTest(TC_FUNC_0022_VerifyErrorMessageForNullValueForSecondNumberTest.java:40)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1483243447", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1483243447'><pre>java.lang.AssertionError: Error Message verification for null value for Second Number - FAILED expected [Enter valid numeric or float value for Second Number] but found [NaN]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at com.propine.qa.testcases.TC_FUNC_0022_VerifyErrorMessageForNullValueForSecondNumberTest.TC_FUNC_0022_verifyErrorMessageForNullValueForSecondNumberTest(TC_FUNC_0022_VerifyErrorMessageForNullValueForSecondNumberTest.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+</pre></div></td>
+<td>3</td>
+<td>com.propine.qa.testcases.TC_FUNC_0022_VerifyErrorMessageForNullValueForSecondNumberTest@56ac3a89</td></tr>
+<tr>
+<td title='com.propine.qa.testcases.TC_FUNC_0023_VerifyErrorMessageForNullValuesForFirstNumberAndSecondNumberTest.TC_FUNC_0023_verifyErrorMessageForNullValueForSecondNumberTest()'><b>TC_FUNC_0023_verifyErrorMessageForNullValueForSecondNumberTest</b><br>Test class: com.propine.qa.testcases.TC_FUNC_0023_VerifyErrorMessageForNullValuesForFirstNumberAndSecondNumberTest<br>Parameters: Enter valid numeric or float value for First Number, Enter valid numeric or float value for Second Number</td>
+<td><div><pre>java.lang.AssertionError: Error Message verification for null value for First Number - FAILED expected [true] but found [false]
+	at com.propine.qa.testcases.TC_FUNC_0023_VerifyErrorMessageForNullValuesForFirstNumberAndSecondNumberTest.TC_FUNC_0023_verifyErrorMessageForNullValueForSecondNumberTest(TC_FUNC_0023_VerifyErrorMessageForNullValuesForFirstNumberAndSecondNumberTest.java:41)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1227170244", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1227170244'><pre>java.lang.AssertionError: Error Message verification for null value for First Number - FAILED expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.propine.qa.testcases.TC_FUNC_0023_VerifyErrorMessageForNullValuesForFirstNumberAndSecondNumberTest.TC_FUNC_0023_verifyErrorMessageForNullValueForSecondNumberTest(TC_FUNC_0023_VerifyErrorMessageForNullValuesForFirstNumberAndSecondNumberTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+</pre></div></td>
+<td>2</td>
+<td>com.propine.qa.testcases.TC_FUNC_0023_VerifyErrorMessageForNullValuesForFirstNumberAndSecondNumberTest@27c20538</td></tr>
+<tr>
+<td title='com.propine.qa.testcases.TC_FUNC_0024_VerifyErrorMessageForNonNumericValueForFirstNumberTest.TC_FUNC_0024_verifyErrorMessageForNonNumericValueForFirstNumberTest()'><b>TC_FUNC_0024_verifyErrorMessageForNonNumericValueForFirstNumberTest</b><br>Test class: com.propine.qa.testcases.TC_FUNC_0024_VerifyErrorMessageForNonNumericValueForFirstNumberTest<br>Parameters: ab#, 10, Enter valid numeric or float value for First Number</td>
+<td><div><pre>java.lang.AssertionError: Error Message verification for non-numeric value for First Number - FAILED expected [Enter valid numeric or float value for First Number] but found [NaN]
+	at com.propine.qa.testcases.TC_FUNC_0024_VerifyErrorMessageForNonNumericValueForFirstNumberTest.TC_FUNC_0024_verifyErrorMessageForNonNumericValueForFirstNumberTest(TC_FUNC_0024_VerifyErrorMessageForNonNumericValueForFirstNumberTest.java:40)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace349757746", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace349757746'><pre>java.lang.AssertionError: Error Message verification for non-numeric value for First Number - FAILED expected [Enter valid numeric or float value for First Number] but found [NaN]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at com.propine.qa.testcases.TC_FUNC_0024_VerifyErrorMessageForNonNumericValueForFirstNumberTest.TC_FUNC_0024_verifyErrorMessageForNonNumericValueForFirstNumberTest(TC_FUNC_0024_VerifyErrorMessageForNonNumericValueForFirstNumberTest.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+</pre></div></td>
+<td>3</td>
+<td>com.propine.qa.testcases.TC_FUNC_0024_VerifyErrorMessageForNonNumericValueForFirstNumberTest@72d818d1</td></tr>
+<tr>
+<td title='com.propine.qa.testcases.TC_FUNC_0025_VerifyErrorMessageForNonNumericValueForSecondNumberTest.TC_FUNC_0025_verifyErrorMessageForNonNumericValueForSecondNumberTest()'><b>TC_FUNC_0025_verifyErrorMessageForNonNumericValueForSecondNumberTest</b><br>Test class: com.propine.qa.testcases.TC_FUNC_0025_VerifyErrorMessageForNonNumericValueForSecondNumberTest<br>Parameters: 10, ab#, Enter valid numeric or float value for Second Number</td>
+<td><div><pre>java.lang.AssertionError: Error Message verification for non-numeric value for Second Number - FAILED expected [Enter valid numeric or float value for Second Number] but found [NaN]
+	at com.propine.qa.testcases.TC_FUNC_0025_VerifyErrorMessageForNonNumericValueForSecondNumberTest.TC_FUNC_0025_verifyErrorMessageForNonNumericValueForSecondNumberTest(TC_FUNC_0025_VerifyErrorMessageForNonNumericValueForSecondNumberTest.java:40)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2042532331", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2042532331'><pre>java.lang.AssertionError: Error Message verification for non-numeric value for Second Number - FAILED expected [Enter valid numeric or float value for Second Number] but found [NaN]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at com.propine.qa.testcases.TC_FUNC_0025_VerifyErrorMessageForNonNumericValueForSecondNumberTest.TC_FUNC_0025_verifyErrorMessageForNonNumericValueForSecondNumberTest(TC_FUNC_0025_VerifyErrorMessageForNonNumericValueForSecondNumberTest.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+</pre></div></td>
+<td>3</td>
+<td>com.propine.qa.testcases.TC_FUNC_0025_VerifyErrorMessageForNonNumericValueForSecondNumberTest@6e06451e</td></tr>
+<tr>
+<td title='com.propine.qa.testcases.TC_FUNC_0026_VerifyErrorMessageForNonNumericValueForFirstNumberAndSecondNumberTest.TC_FUNC_0026_verifyErrorMessageForNonNumericValueForFirstNumberAndSecondNumberTest()'><b>TC_FUNC_0026_verifyErrorMessageForNonNumericValueForFirstNumberAndSecondNumberTest</b><br>Test class: com.propine.qa.testcases.TC_FUNC_0026_VerifyErrorMessageForNonNumericValueForFirstNumberAndSecondNumberTest<br>Parameters: ab#, ab#, Enter valid numeric or float value for First Number, Enter valid numeric or float value for Second Number</td>
+<td><div><pre>java.lang.AssertionError: Error Message verification for non-numeric value for First Number - FAILED expected [true] but found [false]
+	at com.propine.qa.testcases.TC_FUNC_0026_VerifyErrorMessageForNonNumericValueForFirstNumberAndSecondNumberTest.TC_FUNC_0026_verifyErrorMessageForNonNumericValueForFirstNumberAndSecondNumberTest(TC_FUNC_0026_VerifyErrorMessageForNonNumericValueForFirstNumberAndSecondNumberTest.java:41)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace369141922", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace369141922'><pre>java.lang.AssertionError: Error Message verification for non-numeric value for First Number - FAILED expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.propine.qa.testcases.TC_FUNC_0026_VerifyErrorMessageForNonNumericValueForFirstNumberAndSecondNumberTest.TC_FUNC_0026_verifyErrorMessageForNonNumericValueForFirstNumberAndSecondNumberTest(TC_FUNC_0026_VerifyErrorMessageForNonNumericValueForFirstNumberAndSecondNumberTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+</pre></div></td>
+<td>3</td>
+<td>com.propine.qa.testcases.TC_FUNC_0026_VerifyErrorMessageForNonNumericValueForFirstNumberAndSecondNumberTest@59494225</td></tr>
+<tr>
+<td title='com.propine.qa.testcases.TC_FUNC_0027_VerifyErrorMessageForAlphaNumericValueForFirstNumberTest.TC_FUNC_0027_verifyErrorMessageForAlphaNumericValueForFirstNumberTest()'><b>TC_FUNC_0027_verifyErrorMessageForAlphaNumericValueForFirstNumberTest</b><br>Test class: com.propine.qa.testcases.TC_FUNC_0027_VerifyErrorMessageForAlphaNumericValueForFirstNumberTest<br>Parameters: 1a, 10, Enter valid numeric or float value for First Number</td>
+<td><div><pre>java.lang.AssertionError: Error Message verification for alpha-numeric value for First Number - FAILED expected [Enter valid numeric or float value for First Number] but found [11]
+	at com.propine.qa.testcases.TC_FUNC_0027_VerifyErrorMessageForAlphaNumericValueForFirstNumberTest.TC_FUNC_0027_verifyErrorMessageForAlphaNumericValueForFirstNumberTest(TC_FUNC_0027_VerifyErrorMessageForAlphaNumericValueForFirstNumberTest.java:40)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2136793918", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2136793918'><pre>java.lang.AssertionError: Error Message verification for alpha-numeric value for First Number - FAILED expected [Enter valid numeric or float value for First Number] but found [11]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at com.propine.qa.testcases.TC_FUNC_0027_VerifyErrorMessageForAlphaNumericValueForFirstNumberTest.TC_FUNC_0027_verifyErrorMessageForAlphaNumericValueForFirstNumberTest(TC_FUNC_0027_VerifyErrorMessageForAlphaNumericValueForFirstNumberTest.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+</pre></div></td>
+<td>3</td>
+<td>com.propine.qa.testcases.TC_FUNC_0027_VerifyErrorMessageForAlphaNumericValueForFirstNumberTest@6e1567f1</td></tr>
+<tr>
+<td title='com.propine.qa.testcases.TC_FUNC_0028_VerifyErrorMessageForAlphaNumericValueForSecondNumberTest.TC_FUNC_0028_verifyErrorMessageForAlphaNumericValueForSecondNumberTest()'><b>TC_FUNC_0028_verifyErrorMessageForAlphaNumericValueForSecondNumberTest</b><br>Test class: com.propine.qa.testcases.TC_FUNC_0028_VerifyErrorMessageForAlphaNumericValueForSecondNumberTest<br>Parameters: 10, b2, Enter valid numeric or float value for Second Number</td>
+<td><div><pre>java.lang.AssertionError: Error Message verification for alpha-numeric value for Second Number - FAILED expected [Enter valid numeric or float value for Second Number] but found [NaN]
+	at com.propine.qa.testcases.TC_FUNC_0028_VerifyErrorMessageForAlphaNumericValueForSecondNumberTest.TC_FUNC_0028_verifyErrorMessageForAlphaNumericValueForSecondNumberTest(TC_FUNC_0028_VerifyErrorMessageForAlphaNumericValueForSecondNumberTest.java:40)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1671214984", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1671214984'><pre>java.lang.AssertionError: Error Message verification for alpha-numeric value for Second Number - FAILED expected [Enter valid numeric or float value for Second Number] but found [NaN]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at com.propine.qa.testcases.TC_FUNC_0028_VerifyErrorMessageForAlphaNumericValueForSecondNumberTest.TC_FUNC_0028_verifyErrorMessageForAlphaNumericValueForSecondNumberTest(TC_FUNC_0028_VerifyErrorMessageForAlphaNumericValueForSecondNumberTest.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+</pre></div></td>
+<td>3</td>
+<td>com.propine.qa.testcases.TC_FUNC_0028_VerifyErrorMessageForAlphaNumericValueForSecondNumberTest@5cb9f472</td></tr>
+<tr>
+<td title='com.propine.qa.testcases.TC_FUNC_0029_VerifyErrorMessageForAlphaNumericValueForFirstNumberAndSecondNumberTest.TC_FUNC_0029_verifyErrorMessageForAlphaNumericValueForFirstNumberAndSecondNumberTest()'><b>TC_FUNC_0029_verifyErrorMessageForAlphaNumericValueForFirstNumberAndSecondNumberTest</b><br>Test class: com.propine.qa.testcases.TC_FUNC_0029_VerifyErrorMessageForAlphaNumericValueForFirstNumberAndSecondNumberTest<br>Parameters: 2a, 3b, Enter valid numeric or float value for First Number, Enter valid numeric or float value for Second Number</td>
+<td><div><pre>java.lang.AssertionError: Error Message verification for alpha-numeric value for First Number - FAILED expected [true] but found [false]
+	at com.propine.qa.testcases.TC_FUNC_0029_VerifyErrorMessageForAlphaNumericValueForFirstNumberAndSecondNumberTest.TC_FUNC_0029_verifyErrorMessageForAlphaNumericValueForFirstNumberAndSecondNumberTest(TC_FUNC_0029_VerifyErrorMessageForAlphaNumericValueForFirstNumberAndSecondNumberTest.java:41)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1316735289", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1316735289'><pre>java.lang.AssertionError: Error Message verification for alpha-numeric value for First Number - FAILED expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.propine.qa.testcases.TC_FUNC_0029_VerifyErrorMessageForAlphaNumericValueForFirstNumberAndSecondNumberTest.TC_FUNC_0029_verifyErrorMessageForAlphaNumericValueForFirstNumberAndSecondNumberTest(TC_FUNC_0029_VerifyErrorMessageForAlphaNumericValueForFirstNumberAndSecondNumberTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+</pre></div></td>
+<td>3</td>
+<td>com.propine.qa.testcases.TC_FUNC_0029_VerifyErrorMessageForAlphaNumericValueForFirstNumberAndSecondNumberTest@cb644e</td></tr>
+<tr>
+<td title='com.propine.qa.testcases.TC_FUNC_0030_VerifyErrorMessageForNumericValueWithSpaceForFirstNumberTest.TC_FUNC_0030_verifyErrorMessageForNumericValueWithSpaceForFirstNumberTest()'><b>TC_FUNC_0030_verifyErrorMessageForNumericValueWithSpaceForFirstNumberTest</b><br>Test class: com.propine.qa.testcases.TC_FUNC_0030_VerifyErrorMessageForNumericValueWithSpaceForFirstNumberTest<br>Parameters:    5  , 10, Enter valid numeric or float value for First Number</td>
+<td><div><pre>java.lang.AssertionError: Error Message verification for numeric value with space for First Number - FAILED expected [Enter valid numeric or float value for First Number] but found [15]
+	at com.propine.qa.testcases.TC_FUNC_0030_VerifyErrorMessageForNumericValueWithSpaceForFirstNumberTest.TC_FUNC_0030_verifyErrorMessageForNumericValueWithSpaceForFirstNumberTest(TC_FUNC_0030_VerifyErrorMessageForNumericValueWithSpaceForFirstNumberTest.java:40)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace222088774", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace222088774'><pre>java.lang.AssertionError: Error Message verification for numeric value with space for First Number - FAILED expected [Enter valid numeric or float value for First Number] but found [15]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at com.propine.qa.testcases.TC_FUNC_0030_VerifyErrorMessageForNumericValueWithSpaceForFirstNumberTest.TC_FUNC_0030_verifyErrorMessageForNumericValueWithSpaceForFirstNumberTest(TC_FUNC_0030_VerifyErrorMessageForNumericValueWithSpaceForFirstNumberTest.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+</pre></div></td>
+<td>3</td>
+<td>com.propine.qa.testcases.TC_FUNC_0030_VerifyErrorMessageForNumericValueWithSpaceForFirstNumberTest@13805618</td></tr>
+<tr>
+<td title='com.propine.qa.testcases.TC_FUNC_0031_VerifyErrorMessageForNumericValueWithSpaceForSecondNumberTest.TC_FUNC_0031_verifyErrorMessageForNumericValueWithSpaceForSecondNumberTest()'><b>TC_FUNC_0031_verifyErrorMessageForNumericValueWithSpaceForSecondNumberTest</b><br>Test class: com.propine.qa.testcases.TC_FUNC_0031_VerifyErrorMessageForNumericValueWithSpaceForSecondNumberTest<br>Parameters: 10,     2  , Enter valid numeric or float value for Second Number</td>
+<td><div><pre>java.lang.AssertionError: Error Message verification for numeric value with space for Second Number - FAILED expected [Enter valid numeric or float value for Second Number] but found [12]
+	at com.propine.qa.testcases.TC_FUNC_0031_VerifyErrorMessageForNumericValueWithSpaceForSecondNumberTest.TC_FUNC_0031_verifyErrorMessageForNumericValueWithSpaceForSecondNumberTest(TC_FUNC_0031_VerifyErrorMessageForNumericValueWithSpaceForSecondNumberTest.java:40)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace341475869", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace341475869'><pre>java.lang.AssertionError: Error Message verification for numeric value with space for Second Number - FAILED expected [Enter valid numeric or float value for Second Number] but found [12]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at com.propine.qa.testcases.TC_FUNC_0031_VerifyErrorMessageForNumericValueWithSpaceForSecondNumberTest.TC_FUNC_0031_verifyErrorMessageForNumericValueWithSpaceForSecondNumberTest(TC_FUNC_0031_VerifyErrorMessageForNumericValueWithSpaceForSecondNumberTest.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+</pre></div></td>
+<td>3</td>
+<td>com.propine.qa.testcases.TC_FUNC_0031_VerifyErrorMessageForNumericValueWithSpaceForSecondNumberTest@56ef9176</td></tr>
+<tr>
+<td title='com.propine.qa.testcases.TC_FUNC_0032_VerifyErrorMessageForNumericValueWithSpaceForFirstNumberAndSecondNumberTest.TC_FUNC_0032_verifyErrorMessageForNumericValueWithSpaceForFirstNumberAndSecondNumberTest()'><b>TC_FUNC_0032_verifyErrorMessageForNumericValueWithSpaceForFirstNumberAndSecondNumberTest</b><br>Test class: com.propine.qa.testcases.TC_FUNC_0032_VerifyErrorMessageForNumericValueWithSpaceForFirstNumberAndSecondNumberTest<br>Parameters:      5     ,      2   , Enter valid numeric or float value for First Number, Enter valid numeric or float value for Second Number</td>
+<td><div><pre>java.lang.AssertionError: Error Message verification for numeric value with space for First Number - FAILED expected [true] but found [false]
+	at com.propine.qa.testcases.TC_FUNC_0032_VerifyErrorMessageForNumericValueWithSpaceForFirstNumberAndSecondNumberTest.TC_FUNC_0032_verifyErrorMessageForNumericValueWithSpaceForFirstNumberAndSecondNumberTest(TC_FUNC_0032_VerifyErrorMessageForNumericValueWithSpaceForFirstNumberAndSecondNumberTest.java:41)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1427089775", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1427089775'><pre>java.lang.AssertionError: Error Message verification for numeric value with space for First Number - FAILED expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.propine.qa.testcases.TC_FUNC_0032_VerifyErrorMessageForNumericValueWithSpaceForFirstNumberAndSecondNumberTest.TC_FUNC_0032_verifyErrorMessageForNumericValueWithSpaceForFirstNumberAndSecondNumberTest(TC_FUNC_0032_VerifyErrorMessageForNumericValueWithSpaceForFirstNumberAndSecondNumberTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+</pre></div></td>
+<td>3</td>
+<td>com.propine.qa.testcases.TC_FUNC_0032_VerifyErrorMessageForNumericValueWithSpaceForFirstNumberAndSecondNumberTest@4566e5bd</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.propine.qa.testcases.TC_FIELD_0001_VerifyFirstNumberForNumericValuesTest.TC_FIELD_0001_verifyFirstNumberForNumericValuesTest()'><b>TC_FIELD_0001_verifyFirstNumberForNumericValuesTest</b><br>Test class: com.propine.qa.testcases.TC_FIELD_0001_VerifyFirstNumberForNumericValuesTest<br>Parameters: 10.0</td>
+<td></td>
+<td>0</td>
+<td>com.propine.qa.testcases.TC_FIELD_0001_VerifyFirstNumberForNumericValuesTest@14bf9759</td></tr>
+<tr>
+<td title='com.propine.qa.testcases.TC_FIELD_0002_VerifySecondNumberForNumericValuesTest.TC_FIELD_0002_verifySecondNumberForNumericValuesTest()'><b>TC_FIELD_0002_verifySecondNumberForNumericValuesTest</b><br>Test class: com.propine.qa.testcases.TC_FIELD_0002_VerifySecondNumberForNumericValuesTest<br>Parameters: 20.0</td>
+<td></td>
+<td>0</td>
+<td>com.propine.qa.testcases.TC_FIELD_0002_VerifySecondNumberForNumericValuesTest@5f341870</td></tr>
+<tr>
+<td title='com.propine.qa.testcases.TC_FUNC_0001_VerifyAdditionOfTwoPositiveIntegerNumbersTest.TC_FUNC_0001_verifyAdditionOfTwoPositiveIntegerNumbersTest()'><b>TC_FUNC_0001_verifyAdditionOfTwoPositiveIntegerNumbersTest</b><br>Test class: com.propine.qa.testcases.TC_FUNC_0001_VerifyAdditionOfTwoPositiveIntegerNumbersTest<br>Parameters: 10.0, 20.0, 30.0</td>
+<td></td>
+<td>3</td>
+<td>com.propine.qa.testcases.TC_FUNC_0001_VerifyAdditionOfTwoPositiveIntegerNumbersTest@271053e1</td></tr>
+<tr>
+<td title='com.propine.qa.testcases.TC_FUNC_0002_VerifyAdditionOfTwoNegativeIntegerNumbersTest.TC_FUNC_0002_verifyAdditionOfTwoNegativeIntegerNumbersTest()'><b>TC_FUNC_0002_verifyAdditionOfTwoNegativeIntegerNumbersTest</b><br>Test class: com.propine.qa.testcases.TC_FUNC_0002_VerifyAdditionOfTwoNegativeIntegerNumbersTest<br>Parameters: -10.0, -20.0, -30.0</td>
+<td></td>
+<td>3</td>
+<td>com.propine.qa.testcases.TC_FUNC_0002_VerifyAdditionOfTwoNegativeIntegerNumbersTest@589838eb</td></tr>
+<tr>
+<td title='com.propine.qa.testcases.TC_FUNC_0003_VerifyAdditionOfTwoZeroNumbersTest.TC_FUNC_0003_verifyAdditionOfTwoZeroNumbersTest()'><b>TC_FUNC_0003_verifyAdditionOfTwoZeroNumbersTest</b><br>Test class: com.propine.qa.testcases.TC_FUNC_0003_VerifyAdditionOfTwoZeroNumbersTest<br>Parameters: 0, 0, 0</td>
+<td></td>
+<td>3</td>
+<td>com.propine.qa.testcases.TC_FUNC_0003_VerifyAdditionOfTwoZeroNumbersTest@42dafa95</td></tr>
+<tr>
+<td title='com.propine.qa.testcases.TC_FUNC_0004_VerifyAdditionOfPositiveAndNegativeIntegerNumbersTest.TC_FUNC_0004_verifyAdditionOfPositiveAndNegativeIntegerNumbersTest()'><b>TC_FUNC_0004_verifyAdditionOfPositiveAndNegativeIntegerNumbersTest</b><br>Test class: com.propine.qa.testcases.TC_FUNC_0004_VerifyAdditionOfPositiveAndNegativeIntegerNumbersTest<br>Parameters: 10.0, -20, -10</td>
+<td></td>
+<td>3</td>
+<td>com.propine.qa.testcases.TC_FUNC_0004_VerifyAdditionOfPositiveAndNegativeIntegerNumbersTest@6500df86</td></tr>
+<tr>
+<td title='com.propine.qa.testcases.TC_FUNC_0005_VerifyAdditionOfNegativeAndPositiveIntegerNumbersTest.TC_FUNC_0005_verifyAdditionOfNegativeAndPositiveIntegerNumbersTest()'><b>TC_FUNC_0005_verifyAdditionOfNegativeAndPositiveIntegerNumbersTest</b><br>Test class: com.propine.qa.testcases.TC_FUNC_0005_VerifyAdditionOfNegativeAndPositiveIntegerNumbersTest<br>Parameters: -20, 10, -10</td>
+<td></td>
+<td>3</td>
+<td>com.propine.qa.testcases.TC_FUNC_0005_VerifyAdditionOfNegativeAndPositiveIntegerNumbersTest@402a079c</td></tr>
+<tr>
+<td title='com.propine.qa.testcases.TC_FUNC_0006_VerifyAdditionOfPositiveAndZeroIntegerNumbersTest.TC_FUNC_0006_verifyAdditionOfPositiveAndZeroIntegerNumbersTest()'><b>TC_FUNC_0006_verifyAdditionOfPositiveAndZeroIntegerNumbersTest</b><br>Test class: com.propine.qa.testcases.TC_FUNC_0006_VerifyAdditionOfPositiveAndZeroIntegerNumbersTest<br>Parameters: 10.0, 0, 10</td>
+<td></td>
+<td>3</td>
+<td>com.propine.qa.testcases.TC_FUNC_0006_VerifyAdditionOfPositiveAndZeroIntegerNumbersTest@59ec2012</td></tr>
+<tr>
+<td title='com.propine.qa.testcases.TC_FUNC_0007_VerifyAdditionOfNegativeAndZeroIntegerNumbersTest.TC_FUNC_0007_verifyAdditionOfNegativeAndZeroIntegerNumbersTest()'><b>TC_FUNC_0007_verifyAdditionOfNegativeAndZeroIntegerNumbersTest</b><br>Test class: com.propine.qa.testcases.TC_FUNC_0007_VerifyAdditionOfNegativeAndZeroIntegerNumbersTest<br>Parameters: -20, 0, -20</td>
+<td></td>
+<td>3</td>
+<td>com.propine.qa.testcases.TC_FUNC_0007_VerifyAdditionOfNegativeAndZeroIntegerNumbersTest@4cf777e8</td></tr>
+<tr>
+<td title='com.propine.qa.testcases.TC_FUNC_0008_VerifyAdditionOfTwoZeroIntegerNumbersTest.TC_FUNC_0008_verifyAdditionOfTwoZeroIntegerNumbersTest()'><b>TC_FUNC_0008_verifyAdditionOfTwoZeroIntegerNumbersTest</b><br>Test class: com.propine.qa.testcases.TC_FUNC_0008_VerifyAdditionOfTwoZeroIntegerNumbersTest<br>Parameters: 0, 0, 0</td>
+<td></td>
+<td>3</td>
+<td>com.propine.qa.testcases.TC_FUNC_0008_VerifyAdditionOfTwoZeroIntegerNumbersTest@2f686d1f</td></tr>
+<tr>
+<td title='com.propine.qa.testcases.TC_FUNC_0009_VerifyAdditionOfTwoPositiveFloatNumbersTest.TC_FUNC_0009_verifyAdditionOfTwoPositiveFloatNumbersTest()'><b>TC_FUNC_0009_verifyAdditionOfTwoPositiveFloatNumbersTest</b><br>Test class: com.propine.qa.testcases.TC_FUNC_0009_VerifyAdditionOfTwoPositiveFloatNumbersTest<br>Parameters: 10.04, 10.02, 20.06</td>
+<td></td>
+<td>3</td>
+<td>com.propine.qa.testcases.TC_FUNC_0009_VerifyAdditionOfTwoPositiveFloatNumbersTest@3fee9989</td></tr>
+<tr>
+<td title='com.propine.qa.testcases.TC_FUNC_0010_VerifyAdditionOfTwoNegativeFloatNumbersTest.TC_FUNC_0010_verifyAdditionOfTwoNegativeFloatNumbersTest()'><b>TC_FUNC_0010_verifyAdditionOfTwoNegativeFloatNumbersTest</b><br>Test class: com.propine.qa.testcases.TC_FUNC_0010_VerifyAdditionOfTwoNegativeFloatNumbersTest<br>Parameters: -10.04, -10.02, -20.06</td>
+<td></td>
+<td>3</td>
+<td>com.propine.qa.testcases.TC_FUNC_0010_VerifyAdditionOfTwoNegativeFloatNumbersTest@73ad2d6</td></tr>
+<tr>
+<td title='com.propine.qa.testcases.TC_FUNC_0013_VerifyAdditionOfPositiveIntAndPositiveFloatNumbersTest.TC_FUNC_0013_verifyAdditionOfPositiveIntAndPositiveFloatNumbersTest()'><b>TC_FUNC_0013_verifyAdditionOfPositiveIntAndPositiveFloatNumbersTest</b><br>Test class: com.propine.qa.testcases.TC_FUNC_0013_VerifyAdditionOfPositiveIntAndPositiveFloatNumbersTest<br>Parameters: 10, 10.02, 20.02</td>
+<td></td>
+<td>3</td>
+<td>com.propine.qa.testcases.TC_FUNC_0013_VerifyAdditionOfPositiveIntAndPositiveFloatNumbersTest@5700d6b1</td></tr>
+<tr>
+<td title='com.propine.qa.testcases.TC_FUNC_0014_VerifyAdditionOfPositiveFloatAndPositiveIntNumbersTest.TC_FUNC_0014_verifyAdditionOfPositiveFloatAndPositiveIntNumbersTest()'><b>TC_FUNC_0014_verifyAdditionOfPositiveFloatAndPositiveIntNumbersTest</b><br>Test class: com.propine.qa.testcases.TC_FUNC_0014_VerifyAdditionOfPositiveFloatAndPositiveIntNumbersTest<br>Parameters: 10.02, 10, 20.02</td>
+<td></td>
+<td>3</td>
+<td>com.propine.qa.testcases.TC_FUNC_0014_VerifyAdditionOfPositiveFloatAndPositiveIntNumbersTest@6fd02e5</td></tr>
+<tr>
+<td title='com.propine.qa.testcases.TC_FUNC_0017_VerifyAdditionOfNegativeIntAndNegativeFloatNumbersTest.TC_FUNC_0017_verifyAdditionOfNegativeIntAndNegativeFloatNumbersTest()'><b>TC_FUNC_0017_verifyAdditionOfNegativeIntAndNegativeFloatNumbersTest</b><br>Test class: com.propine.qa.testcases.TC_FUNC_0017_VerifyAdditionOfNegativeIntAndNegativeFloatNumbersTest<br>Parameters: -10, -10.02, -20.02</td>
+<td></td>
+<td>3</td>
+<td>com.propine.qa.testcases.TC_FUNC_0017_VerifyAdditionOfNegativeIntAndNegativeFloatNumbersTest@5f2108b5</td></tr>
+<tr>
+<td title='com.propine.qa.testcases.TC_FUNC_0018_VerifyAdditionOfNegativeFloatAndNegativeIntNumbersTest.TC_FUNC_0018_verifyAdditionOfNegativeFloatAndNegativeIntNumbersTest()'><b>TC_FUNC_0018_verifyAdditionOfNegativeFloatAndNegativeIntNumbersTest</b><br>Test class: com.propine.qa.testcases.TC_FUNC_0018_VerifyAdditionOfNegativeFloatAndNegativeIntNumbersTest<br>Parameters: -10.02, -10, -20.02</td>
+<td></td>
+<td>3</td>
+<td>com.propine.qa.testcases.TC_FUNC_0018_VerifyAdditionOfNegativeFloatAndNegativeIntNumbersTest@31a5c39e</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [PROPINE Sample Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.propine.qa.util.ExtentReporterNG"/>
+  </listeners>
+  <test name="PROPINE Addition Calculator Test Cases(failed)">
+    <classes>
+      <class name="com.propine.qa.testcases.TC_FUNC_0014_VerifyAdditionOfPositiveFloatAndPositiveIntNumbersTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0014_VerifyAdditionOfPositiveFloatAndPositiveIntNumbersTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0003_VerifyAdditionOfTwoZeroNumbersTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0003_VerifyAdditionOfTwoZeroNumbersTest -->
+      <class name="com.propine.qa.testcases.TC_FIELD_0003_VerifyFirstNumberForNonNumericValuesTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="TC_FIELD_0003_verifyFirstNumberForNonNumericValuesTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.propine.qa.testcases.TC_FIELD_0003_VerifyFirstNumberForNonNumericValuesTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0031_VerifyErrorMessageForNumericValueWithSpaceForSecondNumberTest">
+        <methods>
+          <include name="TC_FUNC_0031_verifyErrorMessageForNumericValueWithSpaceForSecondNumberTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0031_VerifyErrorMessageForNumericValueWithSpaceForSecondNumberTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0005_VerifyAdditionOfNegativeAndPositiveIntegerNumbersTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0005_VerifyAdditionOfNegativeAndPositiveIntegerNumbersTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0018_VerifyAdditionOfNegativeFloatAndNegativeIntNumbersTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0018_VerifyAdditionOfNegativeFloatAndNegativeIntNumbersTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0021_VerifyErrorMessageForNullValueForFirstNumberTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="TC_FUNC_0021_verifyErrorMessageForNullValueForFirstNumberTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0021_VerifyErrorMessageForNullValueForFirstNumberTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0013_VerifyAdditionOfPositiveIntAndPositiveFloatNumbersTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0013_VerifyAdditionOfPositiveIntAndPositiveFloatNumbersTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0011_VerifyAdditionOfPositiveAndNegativeFloatNumbersTest">
+        <methods>
+          <include name="TC_FUNC_0011_verifyAdditionOfPositiveAndNegativeFloatNumbersTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0011_VerifyAdditionOfPositiveAndNegativeFloatNumbersTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0026_VerifyErrorMessageForNonNumericValueForFirstNumberAndSecondNumberTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="TC_FUNC_0026_verifyErrorMessageForNonNumericValueForFirstNumberAndSecondNumberTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0026_VerifyErrorMessageForNonNumericValueForFirstNumberAndSecondNumberTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0012_VerifyAdditionOfNegativeAndPositiveFloatNumbersTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="TC_FUNC_0012_verifyAdditionOfNegativeAndPositiveFloatNumbersTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0012_VerifyAdditionOfNegativeAndPositiveFloatNumbersTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0029_VerifyErrorMessageForAlphaNumericValueForFirstNumberAndSecondNumberTest">
+        <methods>
+          <include name="TC_FUNC_0029_verifyErrorMessageForAlphaNumericValueForFirstNumberAndSecondNumberTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0029_VerifyErrorMessageForAlphaNumericValueForFirstNumberAndSecondNumberTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0023_VerifyErrorMessageForNullValuesForFirstNumberAndSecondNumberTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="TC_FUNC_0023_verifyErrorMessageForNullValueForSecondNumberTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0023_VerifyErrorMessageForNullValuesForFirstNumberAndSecondNumberTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0007_VerifyAdditionOfNegativeAndZeroIntegerNumbersTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0007_VerifyAdditionOfNegativeAndZeroIntegerNumbersTest -->
+      <class name="com.propine.qa.testcases.TC_FIELD_0002_VerifySecondNumberForNumericValuesTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.propine.qa.testcases.TC_FIELD_0002_VerifySecondNumberForNumericValuesTest -->
+      <class name="com.propine.qa.testcases.TC_FIELD_0004_VerifySecondNumberForNonNumericValuesTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TC_FIELD_0004_verifySecondNumberForNonNumericValuesTest" invocation-numbers="0"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.propine.qa.testcases.TC_FIELD_0004_VerifySecondNumberForNonNumericValuesTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0027_VerifyErrorMessageForAlphaNumericValueForFirstNumberTest">
+        <methods>
+          <include name="TC_FUNC_0027_verifyErrorMessageForAlphaNumericValueForFirstNumberTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0027_VerifyErrorMessageForAlphaNumericValueForFirstNumberTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0017_VerifyAdditionOfNegativeIntAndNegativeFloatNumbersTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0017_VerifyAdditionOfNegativeIntAndNegativeFloatNumbersTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0002_VerifyAdditionOfTwoNegativeIntegerNumbersTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0002_VerifyAdditionOfTwoNegativeIntegerNumbersTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0024_VerifyErrorMessageForNonNumericValueForFirstNumberTest">
+        <methods>
+          <include name="TC_FUNC_0024_verifyErrorMessageForNonNumericValueForFirstNumberTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0024_VerifyErrorMessageForNonNumericValueForFirstNumberTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0015_VerifyAdditionOfNegativeIntAndPositiveFloatNumbersTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="TC_FUNC_0015_verifyAdditionOfNegativeIntAndPositiveFloatNumbersTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0015_VerifyAdditionOfNegativeIntAndPositiveFloatNumbersTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0019_VerifyAdditionOfTwoPositiveFloatNumbersWithDiffDecimalsTest">
+        <methods>
+          <include name="TC_FUNC_0019_verifyAdditionOfTwoPositiveFloatNumbersWithDiffDecimalsTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0019_VerifyAdditionOfTwoPositiveFloatNumbersWithDiffDecimalsTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0032_VerifyErrorMessageForNumericValueWithSpaceForFirstNumberAndSecondNumberTest">
+        <methods>
+          <include name="TC_FUNC_0032_verifyErrorMessageForNumericValueWithSpaceForFirstNumberAndSecondNumberTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0032_VerifyErrorMessageForNumericValueWithSpaceForFirstNumberAndSecondNumberTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0022_VerifyErrorMessageForNullValueForSecondNumberTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="TC_FUNC_0022_verifyErrorMessageForNullValueForSecondNumberTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0022_VerifyErrorMessageForNullValueForSecondNumberTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0016_VerifyAdditionOfNegativeFloatAndPositiveIntNumbersTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TC_FUNC_0016_verifyAdditionOfNegativeFloatAndPositiveIntNumbersTest" invocation-numbers="0"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0016_VerifyAdditionOfNegativeFloatAndPositiveIntNumbersTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0030_VerifyErrorMessageForNumericValueWithSpaceForFirstNumberTest">
+        <methods>
+          <include name="TC_FUNC_0030_verifyErrorMessageForNumericValueWithSpaceForFirstNumberTest" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0030_VerifyErrorMessageForNumericValueWithSpaceForFirstNumberTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0006_VerifyAdditionOfPositiveAndZeroIntegerNumbersTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0006_VerifyAdditionOfPositiveAndZeroIntegerNumbersTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0008_VerifyAdditionOfTwoZeroIntegerNumbersTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0008_VerifyAdditionOfTwoZeroIntegerNumbersTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0020_VerifyAdditionOfTwoNegativeFloatNumbersWithDiffDecimalsTest">
+        <methods>
+          <include name="TC_FUNC_0020_verifyAdditionOfTwoNegativeFloatNumbersWithDiffDecimalsTest" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0020_VerifyAdditionOfTwoNegativeFloatNumbersWithDiffDecimalsTest -->
+      <class name="com.propine.qa.testcases.TC_FIELD_0001_VerifyFirstNumberForNumericValuesTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.propine.qa.testcases.TC_FIELD_0001_VerifyFirstNumberForNumericValuesTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0025_VerifyErrorMessageForNonNumericValueForSecondNumberTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="TC_FUNC_0025_verifyErrorMessageForNonNumericValueForSecondNumberTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0025_VerifyErrorMessageForNonNumericValueForSecondNumberTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0010_VerifyAdditionOfTwoNegativeFloatNumbersTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0010_VerifyAdditionOfTwoNegativeFloatNumbersTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0001_VerifyAdditionOfTwoPositiveIntegerNumbersTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0001_VerifyAdditionOfTwoPositiveIntegerNumbersTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0009_VerifyAdditionOfTwoPositiveFloatNumbersTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0009_VerifyAdditionOfTwoPositiveFloatNumbersTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0004_VerifyAdditionOfPositiveAndNegativeIntegerNumbersTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0004_VerifyAdditionOfPositiveAndNegativeIntegerNumbersTest -->
+      <class name="com.propine.qa.testcases.TC_FUNC_0028_VerifyErrorMessageForAlphaNumericValueForSecondNumberTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="TC_FUNC_0028_verifyErrorMessageForAlphaNumericValueForSecondNumberTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.propine.qa.testcases.TC_FUNC_0028_VerifyErrorMessageForAlphaNumericValueForSecondNumberTest -->
+    </classes>
+  </test> <!-- PROPINE Addition Calculator Test Cases(failed) -->
+</suite> <!-- Failed suite [PROPINE Sample Automation Test Suite] -->
